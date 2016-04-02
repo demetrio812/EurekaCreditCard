@@ -41,7 +41,6 @@ form +++= Section("Credit card information")
 ![Selectors for month and year](demo_selector.png)
 
 ### TODO
-* demo project
 * pod specs
 * SwiftValidator integration?
 

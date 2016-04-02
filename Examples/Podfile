@@ -1,0 +1,5 @@
+use_frameworks!
+link_with 'Examples'
+
+pod 'Eureka'
+pod 'BKMoneyKit', :git => 'https://github.com/bkook/BKMoneyKit'
