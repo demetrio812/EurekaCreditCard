@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "EurekaCreditCard"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Eureka custom row and cell for credit card data"
 
   s.description      = <<-DESC
