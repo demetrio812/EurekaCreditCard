@@ -1,0 +1,1 @@
+../../../BKMoneyKit/BKMoneyKit/BKCardPatternInfo.h

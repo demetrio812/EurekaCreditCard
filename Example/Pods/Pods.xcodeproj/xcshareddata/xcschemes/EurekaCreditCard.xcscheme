@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '733797A2958734B84EF4157B'
-               BlueprintName = 'EurekaCreditCard'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'EurekaCreditCard.framework'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4DA7BE2960882127BAAD77F1A3942775"
+               BlueprintName = "EurekaCreditCard"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "EurekaCreditCard.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

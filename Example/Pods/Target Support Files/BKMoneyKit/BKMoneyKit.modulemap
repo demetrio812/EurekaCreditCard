@@ -1,0 +1,6 @@
+framework module BKMoneyKit {
+  umbrella header "BKMoneyKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

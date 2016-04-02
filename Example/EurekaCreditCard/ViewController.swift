@@ -8,6 +8,7 @@
 
 import UIKit
 import Eureka
+import EurekaCreditCard
 
 class ViewController: FormViewController {
     
@@ -22,7 +23,7 @@ class ViewController: FormViewController {
                 //$0.dataSectionWidthPercentage = CGFloat(0.5)
                 $0.cardNumberPlaceholder = "Card Number"
                 $0.expirationMonthPlaceholder = "MM"
-                $0.expirationYearPlaceholder = "YY"
+                $0.expirationYearPlaceholder = "YYYY"
                 $0.cvcPlaceholder = "CVC"
                 $0.value = CreditCard()
         }
@@ -33,7 +34,7 @@ class ViewController: FormViewController {
                 //$0.dataSectionWidthPercentage = CGFloat(0.5)
                 $0.cardNumberPlaceholder = "Card Number"
                 $0.expirationMonthPlaceholder = "MM"
-                $0.expirationYearPlaceholder = "YY"
+                $0.expirationYearPlaceholder = "YYYY"
                 $0.cvcPlaceholder = "CVC"
                 $0.value = CreditCard(
                     cardNumber: "4242424242424242",
@@ -49,7 +50,7 @@ class ViewController: FormViewController {
                 $0.dataSectionWidthPercentage = CGFloat(0.6)
                 $0.cardNumberPlaceholder = "Card Number"
                 $0.expirationMonthPlaceholder = "MM"
-                $0.expirationYearPlaceholder = "YY"
+                $0.expirationYearPlaceholder = "YYYY"
                 $0.cvcPlaceholder = "CVC"
                 $0.value = CreditCard(
                     cardNumber: "4242424242424242",

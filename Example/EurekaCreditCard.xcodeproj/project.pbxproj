@@ -40,6 +40,7 @@
 			<array>
 				<string>155845146028764ED306CBD8</string>
 				<string>48D56F88412A244865F6C4F9</string>
+				<string>7FBF1C48EE07C72774489D44</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -80,7 +81,7 @@
 			<key>shellPath</key>
 			<string>/bin/sh</string>
 			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-EurekaCreditCard_Example/Pods-EurekaCreditCard_Example-frameworks.sh"
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh"
 </string>
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
@@ -115,6 +116,13 @@
 		<dict>
 			<key>fileRef</key>
 			<string>155845146028764ED306CBD8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>47E88348046CFDC10A763EFA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7FBF1C48EE07C72774489D44</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -284,6 +292,7 @@ fi
 			<key>files</key>
 			<array>
 				<string>411E6AC079D40C557B441698</string>
+				<string>47E88348046CFDC10A763EFA</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -1012,6 +1021,19 @@ fi
 			<string>../EurekaCreditCard.podspec</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FBF1C48EE07C72774489D44</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>803735CF2BB9D5A3D0C516B7</key>
 		<dict>

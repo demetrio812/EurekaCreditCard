@@ -84,10 +84,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-EurekaCreditCard_Tests/BKMoneyKit.framework"
+  install_framework "Pods-EurekaCreditCard_Tests/Eureka.framework"
   install_framework "Pods-EurekaCreditCard_Tests/EurekaCreditCard.framework"
   install_framework "Pods-EurekaCreditCard_Tests/FBSnapshotTestCase.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-EurekaCreditCard_Tests/BKMoneyKit.framework"
+  install_framework "Pods-EurekaCreditCard_Tests/Eureka.framework"
   install_framework "Pods-EurekaCreditCard_Tests/EurekaCreditCard.framework"
   install_framework "Pods-EurekaCreditCard_Tests/FBSnapshotTestCase.framework"
 fi

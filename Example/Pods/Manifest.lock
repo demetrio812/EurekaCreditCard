@@ -1,5 +1,9 @@
 PODS:
-  - EurekaCreditCard (0.1.0)
+  - BKMoneyKit (0.0.5)
+  - Eureka (1.5.0)
+  - EurekaCreditCard (0.1.1):
+    - BKMoneyKit
+    - Eureka
   - FBSnapshotTestCase (2.1.0):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.0)
   - FBSnapshotTestCase/Core (2.1.0)
@@ -7,6 +11,8 @@ PODS:
     - FBSnapshotTestCase/Core
 
 DEPENDENCIES:
+  - BKMoneyKit
+  - Eureka
   - EurekaCreditCard (from `../`)
   - FBSnapshotTestCase
 
@@ -15,7 +21,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  EurekaCreditCard: 0d4cba95cd6fbb7e09feb978ba4c36344f5c3824
+  BKMoneyKit: acd201075dae1e99d146ea97bf3b756152b519fd
+  Eureka: 2fb37bb50569c62ee3284689d5b7aca694b040e0
+  EurekaCreditCard: 5f82de3618906088f5fc59e4b8b45a4531600a18
   FBSnapshotTestCase: 366ecd378511d7716c79991cd8067d1eed23578d
 
 COCOAPODS: 0.39.0

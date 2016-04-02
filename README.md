@@ -1,6 +1,5 @@
 # EurekaCreditCard
 
-[![CI Status](http://img.shields.io/travis/Demetrio Filocamo/EurekaCreditCard.svg?style=flat)](https://travis-ci.org/Demetrio Filocamo/EurekaCreditCard)
 [![Version](https://img.shields.io/cocoapods/v/EurekaCreditCard.svg?style=flat)](http://cocoapods.org/pods/EurekaCreditCard)
 [![License](https://img.shields.io/cocoapods/l/EurekaCreditCard.svg?style=flat)](http://cocoapods.org/pods/EurekaCreditCard)
 [![Platform](https://img.shields.io/cocoapods/p/EurekaCreditCard.svg?style=flat)](http://cocoapods.org/pods/EurekaCreditCard)
@@ -50,7 +49,6 @@ form +++= Section("Credit card information")
 ![Selectors for month and year](demo_selector.png)
 
 ### TODO
-* pod specs
 * SwiftValidator integration?
 
 ## Author
