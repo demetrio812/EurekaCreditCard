@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'EurekaCreditCard_Example', :exclusive => true do
+  pod 'EurekaCreditCard', :path => '../'
+end
+
+target 'EurekaCreditCard_Tests', :exclusive => true do
+  pod 'EurekaCreditCard', :path => '../'
+
+  pod 'FBSnapshotTestCase'
+end

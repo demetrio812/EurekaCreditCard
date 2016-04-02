@@ -1,17 +1,26 @@
 # EurekaCreditCard
-Eureka custom row and cell for credit card data
 
-## Install
+[![CI Status](http://img.shields.io/travis/Demetrio Filocamo/EurekaCreditCard.svg?style=flat)](https://travis-ci.org/Demetrio Filocamo/EurekaCreditCard)
+[![Version](https://img.shields.io/cocoapods/v/EurekaCreditCard.svg?style=flat)](http://cocoapods.org/pods/EurekaCreditCard)
+[![License](https://img.shields.io/cocoapods/l/EurekaCreditCard.svg?style=flat)](http://cocoapods.org/pods/EurekaCreditCard)
+[![Platform](https://img.shields.io/cocoapods/p/EurekaCreditCard.svg?style=flat)](http://cocoapods.org/pods/EurekaCreditCard)
 
-1. Copy the swift files manually
+## Usage
 
-2. Add dependencies:
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+EurekaCreditCard is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "EurekaCreditCard"
 ```
-pod 'Eureka'
-pod 'BKMoneyKit', :git => 'https://github.com/bkook/BKMoneyKit'
-```
 
-## Example
+## Code
 ```swift
 form +++= Section("Credit card information")
 
@@ -44,3 +53,10 @@ form +++= Section("Credit card information")
 * pod specs
 * SwiftValidator integration?
 
+## Author
+
+Demetrio Filocamo, filocamo@demetrio.it
+
+## License
+
+EurekaCreditCard is available under the MIT license. See the LICENSE file for more info.

@@ -1,0 +1,25 @@
+{
+  "name": "EurekaCreditCard",
+  "version": "0.1.0",
+  "summary": "A short description of EurekaCreditCard.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/EurekaCreditCard",
+  "license": "MIT",
+  "authors": {
+    "Demetrio Filocamo": "filocamo@demetrio.it"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/EurekaCreditCard.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "EurekaCreditCard": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

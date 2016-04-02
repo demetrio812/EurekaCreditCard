@@ -1,0 +1,21 @@
+PODS:
+  - EurekaCreditCard (0.1.0)
+  - FBSnapshotTestCase (2.1.0):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.0)
+  - FBSnapshotTestCase/Core (2.1.0)
+  - FBSnapshotTestCase/SwiftSupport (2.1.0):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - EurekaCreditCard (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  EurekaCreditCard:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EurekaCreditCard: 0d4cba95cd6fbb7e09feb978ba4c36344f5c3824
+  FBSnapshotTestCase: 366ecd378511d7716c79991cd8067d1eed23578d
+
+COCOAPODS: 0.39.0

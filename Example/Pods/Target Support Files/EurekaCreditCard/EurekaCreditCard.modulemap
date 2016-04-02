@@ -1,0 +1,6 @@
+framework module EurekaCreditCard {
+  umbrella header "EurekaCreditCard-umbrella.h"
+
+  export *
+  module * { export * }
+}
