@@ -590,10 +590,18 @@ public class CreditCardCell<T:CreditCardType>: Cell<T>, CellType, CreditCardCell
     public func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         if pickerView == pickerMonth {
             //            self.row.value?.expirationMonth = self.months[row]
-            expirationMonthTextField.text = self.months[row - 1]
+            if row > 0 {
+                expirationMonthTextField.text = self.months[row - 1]
+            } else {
+                expirationMonthTextField.text = nil
+            }
         } else {
             //            self.row.value?.expirationYear = self.years[row]
-            expirationYearTextField.text = self.years[row - 1]
+            if row > 0 {
+                expirationYearTextField.text = self.years[row - 1]
+            } else {
+                expirationYearTextField.text = nil
+            }
         }
     }
 }
