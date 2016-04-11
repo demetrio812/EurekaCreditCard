@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+### [0.1.3](https://github.com/demetrio812/EurekaCreditCard/releases/tag/0.1.3)
+* CVC numbers are hidden now
+
 ### [0.1.2](https://github.com/demetrio812/EurekaCreditCard/releases/tag/0.1.2)
 * Example fixed
 * Crash when selecting the first row of the picker fixed

@@ -282,6 +282,7 @@ public class CreditCardCell<T:CreditCardType>: Cell<T>, CellType, CreditCardCell
         cvcTextField.autocapitalizationType = .None
         cvcTextField.keyboardType = .NumberPad
         cvcTextField.ccMaxLength = 3
+        cvcTextField.secureTextEntry = true
         
         if let rowConformance = row as? CreditCardRowConformance {
             if let placeholder = rowConformance.cardNumberPlaceholder {
