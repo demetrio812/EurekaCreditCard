@@ -1,7 +1,9 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-pod 'Eureka'
+#pod 'Eureka'
+pod 'Eureka', git: 'https://github.com/xmartlabs/Eureka.git', branch: 'Swift3'
+
 pod 'BKMoneyKit'
 
 target 'EurekaCreditCard_Example', :exclusive => true do
