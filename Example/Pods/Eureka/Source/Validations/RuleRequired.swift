@@ -1,7 +1,7 @@
-//  RowControllerType.swift
+//  RuleRequire.swift
 //  Eureka ( https://github.com/xmartlabs/Eureka )
 //
-//  Copyright (c) 2016 Xmartlabs ( http://xmartlabs.com )
+//  Copyright (c) 2016 Xmartlabs SRL ( http://xmartlabs.com )
 //
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,15 +22,19 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-
 import Foundation
 
-
-/**
- *  Base protocol for view controllers presented by Eureka rows.
- */
-public protocol RowControllerType : NSObjectProtocol {
+public struct RuleRequired<T: Equatable>: RuleType {
     
-    /// A closure to be called when the controller disappears.
-    var onDismissCallback: ((UIViewController) -> ())? { get set }
+    public init(){}
+    
+    public var id: String?
+    public var validationError = ValidationError(msg: "Field required!")
+    
+    public func isValid(value: T?) -> ValidationError? {
+        if let str = value as? String {
+            return str.isEmpty ? validationError : nil
+        }
+        return value != nil ? nil : validationError
+    }
 }

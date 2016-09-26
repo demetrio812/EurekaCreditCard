@@ -1,4 +1,4 @@
-//  MultipleSelectorRow.swift
+//  RegexRule.swift
 //  Eureka ( https://github.com/xmartlabs/Eureka )
 //
 //  Copyright (c) 2016 Xmartlabs SRL ( http://xmartlabs.com )
@@ -24,15 +24,36 @@
 
 import Foundation
 
-open class _MultipleSelectorRow<T: Hashable, Cell: CellType>: GenericMultipleSelectorRow<T, Cell, MultipleSelectorViewController<T>> where Cell: BaseCell, Cell: TypedCellType, Cell.Value == Set<T> {
-    public required init(tag: String?) {
-        super.init(tag: tag)
-    }
+public enum RegExprPattern: String {
+    case EmailAddress = "^[_A-Za-z0-9-+]+(\\.[_A-Za-z0-9-+]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9-]+)*(\\.[A-Za-z‌​]{2,})$"
+    case URL = "((https|http)://)((\\w|-)+)(([.]|[/])((\\w|-)+))+"
+    case ContainsNumber = ".*\\d.*"
+    case ContainsCapital = "^.*?[A-Z].*?$"
+    case ContainsLowercase = "^.*?[a-z].*?$"
 }
 
-/// A selector row where the user can pick several options from a pushed view controller
-public final class MultipleSelectorRow<T: Hashable> : _MultipleSelectorRow<T, PushSelectorCell<Set<T>>>, RowType {
-    public required init(tag: String?) {
-        super.init(tag: tag)
+public class RuleRegExp: RuleType {
+
+    public var regExpr: String = ""
+    public var id: String?
+    public var validationError = ValidationError(msg: "Invalid field value!")
+    public var allowsEmpty = true
+    
+    public init(regExpr: String, allowsEmpty: Bool = true){
+        self.regExpr = regExpr
+    }
+    
+    public func isValid(value: String?) -> ValidationError? {
+        if let value = value, !value.isEmpty{
+            let predicate = NSPredicate(format: "SELF MATCHES %@", regExpr)
+            guard predicate.evaluate(with: value) else {
+                return validationError
+            }
+            return nil
+        }
+        else if !allowsEmpty {
+            return validationError
+        }
+        return nil
     }
 }

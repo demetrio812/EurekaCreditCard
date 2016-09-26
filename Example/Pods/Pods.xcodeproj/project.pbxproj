@@ -7,120 +7,125 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004C8AAA5143637A4360B55CAD850E4F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81C9BF999B2EC88DEFD7CAD803692D6 /* Operators.swift */; };
 		0071B7C5829D89737325FA27B8613939 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF73B0D09A6635DF7634E2AF6771B45 /* Foundation.framework */; };
-		05D9F15DC226FA4B5D16EEB449B6FEC0 /* BKCurrencyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA38C57971B3A67C806D34301821F84 /* BKCurrencyTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0A50C03F56AD58898CA2A7C6113C4EF4 /* LabelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB84D923DE67142DA71F839048BF4AB /* LabelRow.swift */; };
-		0AA48424DE5670B8C032BA88393BA9FA /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B203C8B62DAE025A65DD57DD05726 /* CellType.swift */; };
-		0B54D47F4061120A46717916BCAD2393 /* SelectableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A38AFDF724FB20C62235F1B0B94229 /* SelectableSection.swift */; };
-		0E4FBDBCB07782C2AE7B6D7AF92F51D8 /* DatePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF92BDA9482205C5F74CE606257E661 /* DatePickerRow.swift */; };
-		103473BC0EFC477EB654B475B6AC8458 /* Eureka-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F9B08D82E05DAB9B957BAA8E3CEC77B /* Eureka-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11C22C7B844DF31A5EBDC9AC132C5E94 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F299140D60F1A5DFCD748F2CA0A8F72 /* UIImage+Compare.m */; };
+		05D9F15DC226FA4B5D16EEB449B6FEC0 /* BKCurrencyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A1033032ACC5C7E45F72DC081283BB74 /* BKCurrencyTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		05E44C82FAED17D346EE349295CF4603 /* SelectableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83283844D722812A5BFA294395B749CA /* SelectableSection.swift */; };
+		072CA9CCA2B930B776F567EAC7BC1666 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF73B0D09A6635DF7634E2AF6771B45 /* Foundation.framework */; };
+		0E7232F55A0147C548BF0C1D91AD29DC /* RowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604B29F97CC9086B54F6ECFFB13FF963 /* RowType.swift */; };
+		1039256A7B0AFBEB51D1BCD1DE192C30 /* ActionSheetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2EADE9514C8FC5DECF570105517F5C /* ActionSheetRow.swift */; };
+		114B8967240AF21C565B7645215F8F44 /* InlineRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A0137FE9997B2B8308F2DEBD02EBE /* InlineRowType.swift */; };
+		11C22C7B844DF31A5EBDC9AC132C5E94 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 6315E163DE4A72BC2B06EC303206ECCF /* UIImage+Compare.m */; };
 		12D508FAE77D8AFF7FFD1061E63CF5CD /* EurekaCreditCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 304A3EB03CB1A279F35294107D650864 /* EurekaCreditCard-dummy.m */; };
-		130F048002A62769FAFCC66F2C79391A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 583B42C1F36301DDA52B3CA55E8C6E92 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13CB51A5F85CF122676966CB347260BC /* PopoverSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48735BCC9FC0BC6C0667FD3F4076574 /* PopoverSelectorRow.swift */; };
-		1662FE9A42490639B7E2A1F401D5D4DD /* DecimalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850F9190628517D2D1E08B93E0A6A96C /* DecimalFormatter.swift */; };
-		17EC2B3C69B94FA42CE90E84342E0547 /* BKCardNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFDEC253A089CB7DA0F3F46CB2D5F87 /* BKCardNumberFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		1846A9B9F8573E477AA3581441B9342F /* BKCardNumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2572653CDCEB7BC54102CD4EBC7D7F6D /* BKCardNumberFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		190E95AB5360EC1AB5D1564E144E32E9 /* BKCardExpiryField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC6A0FB7C2F8E4D882C2403A441305B /* BKCardExpiryField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D8A48631192F6D377B97D5EF0AFE16C /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64BF89E28C002F69AF4AF977B0A0D59 /* Core.swift */; };
-		1FE5D469BDAAFF0030F0AE5780975A4A /* FieldsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A89C4FF9E950E57B6889BDACFE084F5 /* FieldsRow.swift */; };
-		21F799472851BCE6A130A97729507B4C /* ButtonRowWithPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A09497D2FE290E20D42DDBEB4F2609C /* ButtonRowWithPresent.swift */; };
-		22D80D75A3155009821CBE44E7A29298 /* RowProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6BFE06708C01C53EB2A01B789EDF62 /* RowProtocols.swift */; };
-		25DF801747220CA6536FE525E69E18D2 /* BKCardPatternInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B82CD4A9FE65FA09D013755621C10D3 /* BKCardPatternInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2956D2538D326F528DF52EF888FFDBE9 /* NavigationAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD5803F5A948B918DC09FD959E5C658 /* NavigationAccessoryView.swift */; };
-		2B7186AE8B80A62112C769454EDF350F /* RowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD96EE251CEB1100EBD12386B0155DA /* RowType.swift */; };
-		2C87E1788C8FA06AE3481A2226E3AF2D /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3BD69D911DD750A82EEF75BD70A8FB /* UIApplication+StrictKeyWindow.m */; };
-		3256698B182CE03454CDC45A2771B89A /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC47994E694192210F5CC831FDD620 /* Operators.swift */; };
-		33F23AA75A2A0AEABB2CD74FE54C8832 /* BKCurrencyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 118CD718077B45BA17106A289A7685E5 /* BKCurrencyTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34A1C7E576C58A9D3F3101448308BF3E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = CEBF6B7B841B073A17B3D497F8CCEA20 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		34D053EE46DEC5C7CA0F7F5EDBAE1F93 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1120E9DA66A6BD2D220559E3DB03CA13 /* ImagePickerController.swift */; };
-		3607E6F07FF8C4B04B6507C7077F637C /* PickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F2D2013DA7806E4E82D95C3CD9E5BB /* PickerRow.swift */; };
-		3695144974EC7EB912EF8583DD8E2CDB /* BaseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2782EBB7085A60C3DDB416A5FE4054 /* BaseRow.swift */; };
-		389504956193827DB8E033DA2E1E2155 /* BKMoneyUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E83E04707E9C4F7DF694D61F3FAE1EB /* BKMoneyUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3E656AE0B15BCA426C714CC40539F60C /* RowControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9DBFF592CB43A340BD8E9A1B2AC7E5 /* RowControllerType.swift */; };
+		130795E873137DA419183E8BBC2D2F9B /* PickerInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B4EE0A3806719AFCBAC0EEF9E58EF3 /* PickerInlineRow.swift */; };
+		130F048002A62769FAFCC66F2C79391A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 39A4B27DA91267A8CFF9A148EA06212A /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14085738C1B57648ADD19DDB9E7AA93F /* SegmentedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71289107FFE2AC1B14378716BC4581B /* SegmentedRow.swift */; };
+		17EC2B3C69B94FA42CE90E84342E0547 /* BKCardNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A21D99E11A352E4C8133042EF06CB7C5 /* BKCardNumberFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1846A9B9F8573E477AA3581441B9342F /* BKCardNumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9AC0D6783AB8A9AA8A86177B1C5C51 /* BKCardNumberFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		190E95AB5360EC1AB5D1564E144E32E9 /* BKCardExpiryField.h in Headers */ = {isa = PBXBuildFile; fileRef = D5613B89403DF65EDDA2CA661851C650 /* BKCardExpiryField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D2C3F458A7EC5E133380C552CF8DA90 /* PushRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C0BF1CFF75D8D22C8AE30229FE6834 /* PushRow.swift */; };
+		2395F5D2B2E9E8CDCC9B2C03F31A59B6 /* SelectableRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974EE4A13042EF9599819E89ED8095C /* SelectableRowType.swift */; };
+		24B52E4528FE1CA5BBB438CF11441FA5 /* MultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576467F61C55826D43B935D85FF799EF /* MultipleSelectorRow.swift */; };
+		25DF801747220CA6536FE525E69E18D2 /* BKCardPatternInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 51818BC25D5A63240D73C8F5B791ABF3 /* BKCardPatternInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		278DA7CAFEDFF0B3E479BF7310999C84 /* AlertRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F1F02E3E9DF45E294C1C1CF3A0E884 /* AlertRow.swift */; };
+		2A84006D7A3BDF4D776324C3AD9D9F2F /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C738F66485F642BAAA0E8F56E0A050 /* Cell.swift */; };
+		2AC217E55DBAE620E9B1F36F371DE4BF /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B431E9F4DDCFCE3D6EFEDD11C279CA6C /* ButtonRow.swift */; };
+		2ACBF08CF311E49CB4BA1F75D7F7209C /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0E1EB88EA80439D976D9CD87CC8EE6 /* Section.swift */; };
+		2AFAE16062416674764562F22E85FB88 /* DateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAA1E00C398054DDE1FEABB312068E6 /* DateRow.swift */; };
+		2C5B95B3105F48DCBD0DF12B4EB099D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82807A6CBFE2949E4E35FCE1ADDB541 /* UIKit.framework */; };
+		2C87E1788C8FA06AE3481A2226E3AF2D /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CD400670A615B9B23119C0341041E3 /* UIApplication+StrictKeyWindow.m */; };
+		2F005065D096AE7E2DCEE8C7FAB91A2E /* FieldsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A14EB99498E45044DBF88C7FC977A3 /* FieldsRow.swift */; };
+		30AAD30F48EB6531526A83E529E716BA /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272B72C65583C85EA83DC814B1EB67C9 /* Protocols.swift */; };
+		311CF93EE9E301E3FAFD46BA0A62E3B8 /* RuleEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152CA6DA8D508A218C38685C70952DB3 /* RuleEmail.swift */; };
+		33F23AA75A2A0AEABB2CD74FE54C8832 /* BKCurrencyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D8BCC7F8579EE29E87C3D1EE6BC2D8A /* BKCurrencyTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34A1C7E576C58A9D3F3101448308BF3E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = D17171BC4C01A5C1501A19DE1D2B1FA6 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		37E2FFC149E2115469E943E6953CDE15 /* TextAreaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA191077D770369876356214629DB558 /* TextAreaRow.swift */; };
+		389504956193827DB8E033DA2E1E2155 /* BKMoneyUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1A90755E8E450822608EF33EDA2483 /* BKMoneyUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3991DF903EE4C5D986052514554B67F6 /* PresenterRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5830277EC1B0D4184929A3CE674492DE /* PresenterRowType.swift */; };
+		3C15E44B6003282E5BE62A3D32D85A2A /* Eureka-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B74CEF4DCE7803E05AC2151D34F905 /* Eureka-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E760411FF4BE0814759C55C699245A3 /* Pods-BasePods-EurekaCreditCard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8569483D0B0720433EA9472A1C0B35E1 /* Pods-BasePods-EurekaCreditCard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		402EA4A022E376724E25504C36C522CD /* SelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C643453F8D10011F4E96E332BCE79085 /* SelectorRow.swift */; };
+		4325E0AC8D1557CE015B4F35423277DA /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DA499720C4D361710743C6146720E /* Validation.swift */; };
+		43B9A00DB9436E7BD6D705E2872E26E8 /* BaseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A44CA9420324C879064FB7A41B4F2E /* BaseRow.swift */; };
 		4776CCF5EBD178CD26EA0DEABA323791 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF73B0D09A6635DF7634E2AF6771B45 /* Foundation.framework */; };
-		497AA8816FC08215EF4C2431E1986992 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F989233C458B543A95708D2030D77 /* FBSnapshotTestCase-dummy.m */; };
-		4BFE04945F447BAF0B642195073652E8 /* BKMoneyKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2AD5B3D4B741ED9D678D9C5B655656 /* BKMoneyKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E34E7BB952EDEEF27B5727A49B09974 /* OptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C8324063AF95897A583D3DA1A5F2D /* OptionsRow.swift */; };
-		4FCF8C61C8AC79894EAE4C696B247215 /* CardLogo in Resources */ = {isa = PBXBuildFile; fileRef = BEE5A13E1E2DC9BE4B6EFA0B6F3FD862 /* CardLogo */; };
-		58E2E4E04C8A365ABB02A4E62D566772 /* PickerInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8015AD767636882F82B111EDCC4E29 /* PickerInlineRow.swift */; };
-		5A74A0CAB51128C71D0519EA90F6DD0F /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A1F570B98B831E0B66323630A213FD /* Cell.swift */; };
+		497AA8816FC08215EF4C2431E1986992 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 638BECC28EF8F579CB2D0759FD8B99B5 /* FBSnapshotTestCase-dummy.m */; };
+		498223C7F76DB7D28AE38C4B78829F9A /* FieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35879A1CA4762DFE7BFFA816B163C51E /* FieldRow.swift */; };
+		4BFE04945F447BAF0B642195073652E8 /* BKMoneyKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 207E12579A50BA3F44E6AD65DB0A0258 /* BKMoneyKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DF81955654DBE4E02E806802D1D49B0 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BD33828BFCEB4D11AAEA0050A65EE /* Row.swift */; };
+		4EE521ADDD025747F450378FDDE95372 /* RuleURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83122CFF2E81CB556A02583A185F9E17 /* RuleURL.swift */; };
+		4FCF8C61C8AC79894EAE4C696B247215 /* CardLogo in Resources */ = {isa = PBXBuildFile; fileRef = 00FB0B09AA5232E564B66CF2CB438092 /* CardLogo */; };
+		520E9F67AFBBC78EBE66297B8D52C6D2 /* LabelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DA57B5AF2F9CCD3C39C6BD7323E857 /* LabelRow.swift */; };
+		549A01629691F7DB092B3F8176AECD68 /* CheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F57AE29217CD0A3A5F6C43399574AAB /* CheckRow.swift */; };
+		55582C1B0D02D5A84F1FBB731CDE35D9 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1356190446EEA9AE00934CD099A8927A /* Core.swift */; };
+		598FA42A947DB0A73BF837326DFDB13C /* SelectorAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007F89B3B6518AEF753E54C28710326 /* SelectorAlertController.swift */; };
 		5BE23F276F072F37497F1F123419A7EF /* BKMoneyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708057808F9121E60F6196F4540EA68E /* BKMoneyKit.framework */; };
-		5BE49818BA6917BDC91E06E51E9CAE42 /* CardPatterns.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4320615B464187820177355AA04D6F7 /* CardPatterns.plist */; };
-		600D6836E73F7FBCAA1F493AFDFC4EBA /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC19F1510E9B6A09FA6DDA5F8F9FABEF /* Form.swift */; };
-		6152633CCB6B0254E42C00D98BC28A13 /* HeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191BD5F525B9B244D89610B6A610E1FD /* HeaderFooterView.swift */; };
-		61EBC5CF0D5E065C88028B49C6B8D3B3 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 836D1A32763691D2075FA12773A904B6 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		61FF740A2A37371EFA9F3C8ABEEDAFF3 /* TextAreaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641FD95B84523577EAC18108D51A52D0 /* TextAreaRow.swift */; };
-		631128E187FD43FA7016D7DB1BD66182 /* BKCardNumberField.h in Headers */ = {isa = PBXBuildFile; fileRef = DD56B931533FFA24CEE215144ACCA9DE /* BKCardNumberField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		636D2C2E7285E73921A395B9B1280634 /* BKForwardingTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9E3C9CBE0F8A8ECB7FE767F76DA2FC /* BKForwardingTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		660E29286B4C961F1181530F3E7A046E /* Eureka-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED46B5FE87132EC0B640D7C2E2C7817C /* Eureka-dummy.m */; };
-		6775B0346C810AB8CF4380B44BEE1750 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B776175F80E06D096ABCEB15156539 /* Helpers.swift */; };
-		683D577AA185F8BA41C7502B3933EF62 /* BKCardNumberLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E654CAE721A29E0DAE77A66856631E /* BKCardNumberLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5BE49818BA6917BDC91E06E51E9CAE42 /* CardPatterns.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D339A6C55D1BBF6404F58C1FFCE8A01 /* CardPatterns.plist */; };
+		5CB85FC0E9168E9EC0CCD33A63FCBC1A /* NavigationAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F5AFE33A4F002CD4F5511463C7B52 /* NavigationAccessoryView.swift */; };
+		5D49089662AC20A1CB3F05D33635229D /* RuleClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9D93552A3B062BE1CC8BCAF2466601 /* RuleClosure.swift */; };
+		61EBC5CF0D5E065C88028B49C6B8D3B3 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D15D5A5F13B8D9B570723FAB4517E3 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		631128E187FD43FA7016D7DB1BD66182 /* BKCardNumberField.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A1F24716BD0EF258D318D031CD49D04 /* BKCardNumberField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636D2C2E7285E73921A395B9B1280634 /* BKForwardingTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = AA12ABAFE34239112496F2EB90577E26 /* BKForwardingTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		653F5F8E52EED5D8B9CF3FBDB0712CDD /* RuleRequired.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E85E545CAD5BECAB6902EEABAD07B0 /* RuleRequired.swift */; };
+		683D577AA185F8BA41C7502B3933EF62 /* BKCardNumberLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ECC6314481F59709A1E5F4A44EEA7 /* BKCardNumberLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		68B141DDD224D44404652C8848210DCE /* Pods-BasePods-EurekaCreditCard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1391992AC152E004B28BEF0155AC9095 /* Pods-BasePods-EurekaCreditCard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68B245DB47CA60F8F9ADCA1E8CCDC324 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D332034A17CB9AB1FF9EC4D771D333D /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6914EE43A9B8B8D30220B3B6B0D57523 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5AF15FED0F774DB20285A9D85192F0 /* FBSnapshotTestCase.m */; };
-		6E4A16BF4D27C48BB1FE1E1CF5E8B90E /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 368BDD7EC94461F3C52E3C6EB29155BB /* FBSnapshotTestCasePlatform.m */; };
-		72A5AB7A41924EC23046E39011C4E647 /* BKCardNumberLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 882AD91F67FCE2881E7D03267FD7DF85 /* BKCardNumberLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72F0F49C15C14D0EB94206F776713672 /* InlineRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99190A852329A29F06D6BB2712314D49 /* InlineRowType.swift */; };
+		68B245DB47CA60F8F9ADCA1E8CCDC324 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5E7DBA6BA44FA68D45895185655F0 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68DFF9A114D3807FABAAC3CF260F21BE /* DatePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687C4DB2D1B9469DF5ED68317F09FB1F /* DatePickerRow.swift */; };
+		6914EE43A9B8B8D30220B3B6B0D57523 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF313C7DCF71DBDA3FA7059876245CD /* FBSnapshotTestCase.m */; };
+		6E4A16BF4D27C48BB1FE1E1CF5E8B90E /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 723D81CFBF7F4C413F58714C8FFF8E6B /* FBSnapshotTestCasePlatform.m */; };
+		6EA26283A0E32D5594BDA55FF3F704A0 /* DateInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD162679180F1F3639AC751C9A79FC58 /* DateInlineRow.swift */; };
+		6FBB071D9E7FE75CB93CD0F7A12CB69D /* PickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8176B743AD15AA20FA133C7E58EC1E7 /* PickerRow.swift */; };
+		72A5AB7A41924EC23046E39011C4E647 /* BKCardNumberLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 021F7BFDACA90466C226B2830A039991 /* BKCardNumberLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73B96724E9D2B03677BA3C2D24601D64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6701EC742C55B1B2A1DCB4F0E40CCAB /* XCTest.framework */; };
-		7D91ACD6586867700438C1CC2557BEF7 /* CheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0CF2DE91C6DD2CEF5B4490F0CC56F1 /* CheckRow.swift */; };
-		7DF0D078388923B8816F7D57910CFD42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF73B0D09A6635DF7634E2AF6771B45 /* Foundation.framework */; };
+		7614C1B751242708E332B18FF2684B19 /* DateInlineFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9800742A933E84644A5C167077AA54 /* DateInlineFieldRow.swift */; };
+		78808B8338BDEF0959D8B0F3DA3BA891 /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6519A357AED8040137AC292718BE80 /* CellType.swift */; };
+		79E5ACA311F3FD7FF5A52E73A822CE2D /* OptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168BFC6078920E9FC6B6BF476F79A3B /* OptionsRow.swift */; };
+		7B9DC82FC3E433E06CC2FFBDDFE080B2 /* HeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D6017678A686DA3667C6F457EE91C4 /* HeaderFooterView.swift */; };
 		7EBBCC7026575C7DFE7FB9597C7A9A3E /* EurekaCreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3A90A3C77FBB1C5EE94FBE6A543EF /* EurekaCreditCard.swift */; };
-		804B6D74785196303EB645CCD1C79EE5 /* ActionSheetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72B0005191542F5D13DCF452F81465A /* ActionSheetRow.swift */; };
+		8036FBD9863FF1D763DD7A646B05CB5E /* PopoverSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B9BAF7AF1E7A79545BF67520DF0D8F /* PopoverSelectorRow.swift */; };
 		82230E0B5E68FB2A37FDB9DC7C515120 /* Pods-BasePods-EurekaCreditCard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D035C3B6DFA41EFB6947D89671D352 /* Pods-BasePods-EurekaCreditCard_Tests-dummy.m */; };
-		85D178DFCA1BC67BBFB1188E34EC5B19 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9425286050C82F989EE661D304D8104E /* SwiftSupport.swift */; };
-		86B4E86B605F0A0A5C689E8E5F6294E5 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F9051056CAE0B6A6CF132E644175C1 /* ButtonRow.swift */; };
-		8ACF6A5515A175054E22414BF740EF14 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B2D2BB8B068B8383D1ADFEB2C1C40A /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D8B33F5C3E48D535F8189C52650B20F /* Eureka.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 19B8E74F6BA33F41433B4197ECFBE4B9 /* Eureka.bundle */; };
-		93748EA49FCD9EF155AFCFFD9CEA8136 /* SliderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75D71C48AB179A7AF6084351322D486 /* SliderRow.swift */; };
-		94216BFB2AF1B7F1CD43B0401A623F70 /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC364323C2BDB73B02EF0BC41AA91A2 /* SelectorViewController.swift */; };
-		942583935EB712BC81E5F01919E1EFD7 /* SelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F54C8D36AF33400CC9EF743265B207A /* SelectorRow.swift */; };
-		9530B28AFF019AC003E5A01ADAA19A7D /* AlertRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7100FB8182DC0A3395D10CEB4038B4 /* AlertRow.swift */; };
-		969E0DB9B80ADF2681C84C68C174BB38 /* SelectableRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F4274BAF0BACD67B5CE483A627957 /* SelectableRowType.swift */; };
-		9A6ECF4C1907CE942FCD1EA39A299DB9 /* BKCardPatternInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F68CDB967F5E7A501700D4E13CE23E /* BKCardPatternInfo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9FA3B93CE0ECAC3CDC30890659AACF82 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C5C4D69991EE055C83CFB180FA81BAC /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A139110B451BC866C4D19E805577391D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7832731A870205F027005C9161E05621 /* Protocols.swift */; };
-		A31A287529CB6FB1E3AD604BA7808EE2 /* ListCheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DD2822C3EC15A6F1702B5DF167DE64 /* ListCheckRow.swift */; };
-		A31A3E644C08304B82EA33D5CC49F642 /* MultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51677E84751BBF3D1FB6A2806AE2A69A /* MultipleSelectorRow.swift */; };
-		A6792D1386AD67459293295DD80323B3 /* MultipleSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90424A96D6C85470E1D62F8613E549A9 /* MultipleSelectorViewController.swift */; };
-		A6F16B6CC1ED4C25031775A12FD730BB /* PushRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E15A7303D80F3F3D3E1C97974DC0BA /* PushRow.swift */; };
+		85D178DFCA1BC67BBFB1188E34EC5B19 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D92EACB1913946A5B955154F3CB5E9 /* SwiftSupport.swift */; };
+		8ACF6A5515A175054E22414BF740EF14 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 309133A35B1E47B7D07C84BFFF907EE5 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98B82309DB2678065E73E3120988819A /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6779E0960F1CC4BE7B76B3AB14868015 /* Form.swift */; };
+		9A6ECF4C1907CE942FCD1EA39A299DB9 /* BKCardPatternInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4890FD58E348433811967D4D78BA5AFC /* BKCardPatternInfo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9FA3B93CE0ECAC3CDC30890659AACF82 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF58FA2F12F708C30439A4BE2090E67 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A932B89F114B02D24B5FBF362FD0B9F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF73B0D09A6635DF7634E2AF6771B45 /* Foundation.framework */; };
-		B01D4D0408E01DE7CC0EC5402D8D9F00 /* StepperRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CDED13D2C47EADEB75B3BBC36264F4 /* StepperRow.swift */; };
-		B10C046DA46ED6BFEE94375A6BBDCF90 /* BKMoneyUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EF44122977BA0671B695AB778DCAA7FF /* BKMoneyUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4C681E1639A0FCD1E5770370FA5027E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82807A6CBFE2949E4E35FCE1ADDB541 /* UIKit.framework */; };
-		B6A67A3B998747E4290BF6010EC33806 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46BF89288D61F0B15C5BA3092D42C83D /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7DB4B868834CC37618900C0FEDF3F1C /* SwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336FE0B9920DB97C8707C7EEAB0A90DB /* SwitchRow.swift */; };
+		AB3126F1CC735C7FD7D09DB7392FD4CA /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B35BCCC655F3FFCA879AECDB90FF380 /* Helpers.swift */; };
+		AEA1BD08FC0BF44288F2B7B87C020AB3 /* DateFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B6848580F2BF85D3245B5F8B96930C /* DateFieldRow.swift */; };
+		B10C046DA46ED6BFEE94375A6BBDCF90 /* BKMoneyUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EDC21D4CB40AE3CDCEBC84A6D64EF07 /* BKMoneyUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A551C55FCF0AAB8BE1CBBD05B73BC4 /* Eureka.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D8D3F0DF9DA8BBE8C5C40D08B576A399 /* Eureka.bundle */; };
+		B5D1D75F4DFB50ECDBD359388B708E4A /* RowProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA56703EBF2F355196901C8CC26BE26 /* RowProtocols.swift */; };
+		B6A67A3B998747E4290BF6010EC33806 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2BD250AB4C14563351B4DF57E7ADB67 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E82D98499955A6B39BDBCB56E048D8 /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8D73E0DA54A31DC04D44530CA92F32 /* SelectorViewController.swift */; };
+		BE3AFC46419AC438FE1D409B7B0BFED4 /* RuleRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B260B3CD4A1482BDA6BFE29423C015 /* RuleRange.swift */; };
 		C2F990A562665C4001A628AF63D59EBD /* EurekaCreditCard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA74CE4AAE0B95348B99EA2423F5BED1 /* EurekaCreditCard.bundle */; };
-		C360952381641F725C15758993A0F665 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F421C249CD05D69FB7D8AAD3391A9D /* UIImage+Diff.m */; };
-		C3D9FD39975FFCE3B1EA1968F6453426 /* PostalAddressRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB76D8F0FF311220AAB6E38C18281BC6 /* PostalAddressRow.swift */; };
-		CC70C7CF7A63CD3F4256B64D58C551B4 /* DateFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C387365ABDF519CAC001A212BCDDDC4 /* DateFieldRow.swift */; };
+		C360952381641F725C15758993A0F665 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = EB91B7EBB1835C093443DCE79A31A416 /* UIImage+Diff.m */; };
+		C3C0FF320CC9DE76423E6CDF1F8058EE /* DecimalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB154639F5CC37A0F99569B2DB1C2738 /* DecimalFormatter.swift */; };
+		C4E1ACB5AED0442E0212211FAFDA7975 /* SliderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D622D713E63DADBB5B995A38977A19 /* SliderRow.swift */; };
+		C60F11C7D5479F0153B43DC78B6DA97D /* MultipleSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9FBAC231D7810D75A8349A9C45DA6C /* MultipleSelectorViewController.swift */; };
+		C812952EC34CF6C37FA7B066870741B4 /* RuleRegExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E526F42CF65F1DAD37F9CF97B77AA /* RuleRegExp.swift */; };
 		CCBC8F498D12AF0D5C628BA05DDF50F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF73B0D09A6635DF7634E2AF6771B45 /* Foundation.framework */; };
-		CCFBDD8BD9CBBA01909E71AE48334AF4 /* BKCardExpiryField.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EE772A976C8C3BA501D904848759B7 /* BKCardExpiryField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CCFBDD8BD9CBBA01909E71AE48334AF4 /* BKCardExpiryField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FED6CF8FDC58AA655B38DE9FF6063F1 /* BKCardExpiryField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CD59136C12F97B812062B4AA0862AEC0 /* Eureka-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56511A01C5724971A977370CDD82C9D6 /* Eureka-dummy.m */; };
+		D042F97BD6E9018B1E6AF3B78695F2F6 /* RuleLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440E011B2E41FD5EE736AC0B48FC4F45 /* RuleLength.swift */; };
 		D0F5BC78885CA2B2CE7FC2DF23BF727F /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28E17B41E04006309C2F38AB500DBB6 /* Eureka.framework */; };
-		D2EC301A80E6CFB2F650FF088412F8A7 /* DateInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DF467C26697351BFB279F8E407FE76 /* DateInlineRow.swift */; };
-		D511F885870A7B7E7CB3199D645EB0E9 /* SelectorAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A058E89DE881B847B3A4F96B0758A208 /* SelectorAlertController.swift */; };
-		D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = A028802F8BA9B257E8511E9DD169A723 /* UIImage+Snapshot.m */; };
-		D61E1CEF1FDA3375D4F6933C22D1DFA5 /* BKForwardingTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 5002CC6410AB468D224EBFA9319AA247 /* BKForwardingTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9C4B34950478B1AD2F3ED1E39086298 /* DateInlineFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDC603E7AB7D804147BF6AAD6A8C9C4 /* DateInlineFieldRow.swift */; };
-		DBC4386DDD9D7096D8ABBB355B5E4DD0 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C97C11C2E74363409CF036BCF63F37 /* Section.swift */; };
-		DCAEB773C1E1C0CF94EE92A9AA99C329 /* FieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B1ED9562380E3F71B5586E2F469E27 /* FieldRow.swift */; };
-		DE644832B971D2031EF0246712692779 /* SegmentedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C081E3C021D0D083F7779B618A7EA2 /* SegmentedRow.swift */; };
-		E35126F5E99598B42315A9C9F5C41DEA /* DateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D5B6C0D424A2779F4E205E7A9E8D04 /* DateRow.swift */; };
-		E74572DE9678487D6A3A60743F3D409E /* BKCardNumberField.m in Sources */ = {isa = PBXBuildFile; fileRef = 354BFC8F5EE0BA609ADDAAC9AB02F3A8 /* BKCardNumberField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E7744BDE6B307E60F1840FB7DF8416B1 /* GenericMultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA00EE6F6C33CAE461D3D42FADAF1F /* GenericMultipleSelectorRow.swift */; };
-		E774FD99645675D8738D90037FD68F28 /* ImageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D51F23D2745D6D7A515372F347EA /* ImageRow.swift */; };
-		E84F6EA9CA5753D7803B71436793EEB1 /* BKMoneyKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49150919A8137BBCF2B6F2DB61867E85 /* BKMoneyKit-dummy.m */; };
-		E994C7B3AD81F25A03886A4E6AA327C0 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE6315BC928F31D5B43B24A67E9D70 /* Row.swift */; };
+		D38C4C82C4397D964431454DB9BA6B98 /* ListCheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B31D0DE4153D275D50F4FA59744299 /* ListCheckRow.swift */; };
+		D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A5CE5200C676F4CA7E0DC8A6788471 /* UIImage+Snapshot.m */; };
+		D61E1CEF1FDA3375D4F6933C22D1DFA5 /* BKForwardingTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EF080963735FB4F80CE3FFD7661F44E /* BKForwardingTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC59E613604D47744BB4D92C5265B0EF /* ButtonRowWithPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9875F6C260E4AB193AAEC8D5D3B5D9EE /* ButtonRowWithPresent.swift */; };
+		E74572DE9678487D6A3A60743F3D409E /* BKCardNumberField.m in Sources */ = {isa = PBXBuildFile; fileRef = 929B36C52A12F7370A1730AACFAF4967 /* BKCardNumberField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E84F6EA9CA5753D7803B71436793EEB1 /* BKMoneyKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4E7600B009EB3954AF265BD41E90D /* BKMoneyKit-dummy.m */; };
 		EA137F83763ADFE8F995E9240B9C1C2B /* BKMoneyKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EFDD8DF32B59F6B88B6141662619AED1 /* BKMoneyKit.bundle */; };
-		EAA652557B70F493923A3447B5D64E0D /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 002BAEAC5F969708B931A7A49B1E2D52 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EAA652557B70F493923A3447B5D64E0D /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E8E5931400BB01CAB9087F4F76874E /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		EADBA2B478518EE7639B07B881C93552 /* Pods-BasePods-EurekaCreditCard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F442EC373759DC3033CD4CDD6F9B6C /* Pods-BasePods-EurekaCreditCard_Example-dummy.m */; };
+		ED6498AD627581D3216938680A6D4614 /* RowControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AA147B1174290E5B220E051B2D7B6 /* RowControllerType.swift */; };
 		F0B3BC4CE7B1074981F32DDD032E9539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82807A6CBFE2949E4E35FCE1ADDB541 /* UIKit.framework */; };
+		F3247CD95148E670D550CC747A769404 /* SwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551BA3745853127F4402339CBB68BEB1 /* SwitchRow.swift */; };
 		F366B775C22BBE1DBAC7BDB7DE8F0A26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED3EF25056BF919D8A0C0308BCEAEB2 /* QuartzCore.framework */; };
-		F47158C234C50FFB069A1EF8AB26D9F1 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C24B51806A60051E10D39EE0234A01D /* FBSnapshotTestController.m */; };
-		F6489B5AA612A6B9DDA466AED1657023 /* PresenterRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C188EE27319404C2E9E6EA816FE5FD /* PresenterRowType.swift */; };
+		F47158C234C50FFB069A1EF8AB26D9F1 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 925B2D712BEE6547FF12859D60AB99DE /* FBSnapshotTestController.m */; };
 		F8DBF076C1E9C7CD31262405955CF732 /* EurekaCreditCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E7FC7D158D30240BBA8FC3830F6412 /* EurekaCreditCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8E3F64EA6FEDF34A2D5F5DB83EF044E /* GenericMultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DCB52BD5FB4363736153726BA1E08F /* GenericMultipleSelectorRow.swift */; };
 		F99FC520CB4CD715A746A3F7FDE43FF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF73B0D09A6635DF7634E2AF6771B45 /* Foundation.framework */; };
+		FF23400BEFE014C4818111FB1F2EB3EB /* StepperRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E576615AB3B143A66FCB268B2AA0F58B /* StepperRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,14 +133,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4332352E97A37C729DC7D9B3B8A4BB15;
+			remoteGlobalIDString = 873B1A0D84F1FF2C0ECD8A2440705B43;
 			remoteInfo = Eureka;
 		};
 		6B7E1364779822700D0CF5D405D30C0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4332352E97A37C729DC7D9B3B8A4BB15;
+			remoteGlobalIDString = 873B1A0D84F1FF2C0ECD8A2440705B43;
 			remoteInfo = Eureka;
 		};
 		6F7D48D6107E1420793E6825E8FB4F31 /* PBXContainerItemProxy */ = {
@@ -170,7 +175,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4332352E97A37C729DC7D9B3B8A4BB15;
+			remoteGlobalIDString = 873B1A0D84F1FF2C0ECD8A2440705B43;
 			remoteInfo = Eureka;
 		};
 		E8E1C00A001867B25A726B9E15BFAF03 /* PBXContainerItemProxy */ = {
@@ -204,167 +209,163 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		002BAEAC5F969708B931A7A49B1E2D52 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		00E3BB56C117A4376CDEFCEBDA069D2D /* Eureka.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eureka.xcconfig; sourceTree = "<group>"; };
-		01A1F570B98B831E0B66323630A213FD /* Cell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = Source/Core/Cell.swift; sourceTree = "<group>"; };
-		02CDED13D2C47EADEB75B3BBC36264F4 /* StepperRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperRow.swift; path = Source/Rows/StepperRow.swift; sourceTree = "<group>"; };
+		0007F89B3B6518AEF753E54C28710326 /* SelectorAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorAlertController.swift; path = Source/Rows/Controllers/SelectorAlertController.swift; sourceTree = "<group>"; };
+		00FB0B09AA5232E564B66CF2CB438092 /* CardLogo */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = CardLogo; path = BKMoneyKit/BKMoneyKit.bundle/CardLogo; sourceTree = "<group>"; };
+		021F7BFDACA90466C226B2830A039991 /* BKCardNumberLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKCardNumberLabel.h; path = BKMoneyKit/BKCardNumberLabel.h; sourceTree = "<group>"; };
 		098B7FA1F4400504B7599CBBDC963CBE /* Pods_BasePods_EurekaCreditCard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasePods_EurekaCreditCard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		09DD2822C3EC15A6F1702B5DF167DE64 /* ListCheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCheckRow.swift; path = Source/Rows/SelectableRows/ListCheckRow.swift; sourceTree = "<group>"; };
-		0FB84D923DE67142DA71F839048BF4AB /* LabelRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelRow.swift; path = Source/Rows/LabelRow.swift; sourceTree = "<group>"; };
-		0FC364323C2BDB73B02EF0BC41AA91A2 /* SelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorViewController.swift; path = Source/Rows/Controllers/SelectorViewController.swift; sourceTree = "<group>"; };
+		0BA56703EBF2F355196901C8CC26BE26 /* RowProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowProtocols.swift; path = Source/Core/RowProtocols.swift; sourceTree = "<group>"; };
+		0CF58FA2F12F708C30439A4BE2090E67 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		0E2EADE9514C8FC5DECF570105517F5C /* ActionSheetRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetRow.swift; path = Source/Rows/ActionSheetRow.swift; sourceTree = "<group>"; };
+		0F9AC0D6783AB8A9AA8A86177B1C5C51 /* BKCardNumberFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKCardNumberFormatter.h; path = BKMoneyKit/BKCardNumberFormatter.h; sourceTree = "<group>"; };
 		1060241247ACDBF976F51FFC8870CD73 /* EurekaCreditCard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EurekaCreditCard.xcconfig; sourceTree = "<group>"; };
-		1120E9DA66A6BD2D220559E3DB03CA13 /* ImagePickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePickerController.swift; path = Source/Rows/Controllers/ImagePickerController.swift; sourceTree = "<group>"; };
-		118CD718077B45BA17106A289A7685E5 /* BKCurrencyTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKCurrencyTextField.h; path = BKMoneyKit/BKCurrencyTextField.h; sourceTree = "<group>"; };
+		1112C7760CE489B1F35A06660FA6AACD /* Eureka-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-prefix.pch"; sourceTree = "<group>"; };
 		11CF91FE2F19B61FB0AE8EB8B31E4136 /* Pods-BasePods-EurekaCreditCard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BasePods-EurekaCreditCard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		12F2D2013DA7806E4E82D95C3CD9E5BB /* PickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRow.swift; path = Source/Rows/PickerRow.swift; sourceTree = "<group>"; };
+		1356190446EEA9AE00934CD099A8927A /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Source/Core/Core.swift; sourceTree = "<group>"; };
 		1391992AC152E004B28BEF0155AC9095 /* Pods-BasePods-EurekaCreditCard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BasePods-EurekaCreditCard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		152CA6DA8D508A218C38685C70952DB3 /* RuleEmail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEmail.swift; path = Source/Validations/RuleEmail.swift; sourceTree = "<group>"; };
+		159DF318A5C18138D516A337BB4EB797 /* ResourceBundle-BKMoneyKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BKMoneyKit-Info.plist"; sourceTree = "<group>"; };
+		15D622D713E63DADBB5B995A38977A19 /* SliderRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRow.swift; path = Source/Rows/SliderRow.swift; sourceTree = "<group>"; };
 		1606342F729F74AAB4AEEAAF16DD4003 /* Pods-BasePods-EurekaCreditCard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BasePods-EurekaCreditCard_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		19130357D80768A062551E96D5D4FE81 /* ResourceBundle-BKMoneyKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BKMoneyKit-Info.plist"; sourceTree = "<group>"; };
-		191BD5F525B9B244D89610B6A610E1FD /* HeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderFooterView.swift; path = Source/Core/HeaderFooterView.swift; sourceTree = "<group>"; };
-		19B8E74F6BA33F41433B4197ECFBE4B9 /* Eureka.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Eureka.bundle; path = Source/Resources/Eureka.bundle; sourceTree = "<group>"; };
-		19C188EE27319404C2E9E6EA816FE5FD /* PresenterRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresenterRowType.swift; path = Source/Core/PresenterRowType.swift; sourceTree = "<group>"; };
-		1A09497D2FE290E20D42DDBEB4F2609C /* ButtonRowWithPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRowWithPresent.swift; path = Source/Rows/ButtonRowWithPresent.swift; sourceTree = "<group>"; };
+		184ECC6314481F59709A1E5F4A44EEA7 /* BKCardNumberLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKCardNumberLabel.m; path = BKMoneyKit/BKCardNumberLabel.m; sourceTree = "<group>"; };
 		1BD6B3E12093112D69389873C229838D /* EurekaCreditCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EurekaCreditCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6519A357AED8040137AC292718BE80 /* CellType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellType.swift; path = Source/Core/CellType.swift; sourceTree = "<group>"; };
+		1D9D93552A3B062BE1CC8BCAF2466601 /* RuleClosure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleClosure.swift; path = Source/Validations/RuleClosure.swift; sourceTree = "<group>"; };
+		1DAA1E00C398054DDE1FEABB312068E6 /* DateRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRow.swift; path = Source/Rows/DateRow.swift; sourceTree = "<group>"; };
 		1DD117C450A6D9A54B030411FFDF7AAB /* Pods-BasePods-EurekaCreditCard_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BasePods-EurekaCreditCard_Example-resources.sh"; sourceTree = "<group>"; };
-		2007D51F23D2745D6D7A515372F347EA /* ImageRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageRow.swift; path = Source/Rows/ImageRow.swift; sourceTree = "<group>"; };
+		1DEE45DCADE5E4B06B0D941670AF88C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207E12579A50BA3F44E6AD65DB0A0258 /* BKMoneyKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BKMoneyKit-umbrella.h"; sourceTree = "<group>"; };
 		215B93A57F79E08C869CD949464ADCA3 /* Pods-BasePods-EurekaCreditCard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BasePods-EurekaCreditCard_Example-frameworks.sh"; sourceTree = "<group>"; };
-		21E654CAE721A29E0DAE77A66856631E /* BKCardNumberLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKCardNumberLabel.m; path = BKMoneyKit/BKCardNumberLabel.m; sourceTree = "<group>"; };
+		21C738F66485F642BAAA0E8F56E0A050 /* Cell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = Source/Core/Cell.swift; sourceTree = "<group>"; };
 		24A00070917A4926EF1371804956EAA6 /* Pods-BasePods-EurekaCreditCard_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BasePods-EurekaCreditCard_Tests-resources.sh"; sourceTree = "<group>"; };
-		24EE772A976C8C3BA501D904848759B7 /* BKCardExpiryField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKCardExpiryField.m; path = BKMoneyKit/BKCardExpiryField.m; sourceTree = "<group>"; };
-		24F9051056CAE0B6A6CF132E644175C1 /* ButtonRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRow.swift; path = Source/Rows/ButtonRow.swift; sourceTree = "<group>"; };
-		2572653CDCEB7BC54102CD4EBC7D7F6D /* BKCardNumberFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKCardNumberFormatter.h; path = BKMoneyKit/BKCardNumberFormatter.h; sourceTree = "<group>"; };
-		2B82CD4A9FE65FA09D013755621C10D3 /* BKCardPatternInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKCardPatternInfo.h; path = BKMoneyKit/BKCardPatternInfo.h; sourceTree = "<group>"; };
-		2C24B51806A60051E10D39EE0234A01D /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		2F299140D60F1A5DFCD748F2CA0A8F72 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		272B72C65583C85EA83DC814B1EB67C9 /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = Source/Rows/Common/Protocols.swift; sourceTree = "<group>"; };
 		304A3EB03CB1A279F35294107D650864 /* EurekaCreditCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EurekaCreditCard-dummy.m"; sourceTree = "<group>"; };
-		336FE0B9920DB97C8707C7EEAB0A90DB /* SwitchRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchRow.swift; path = Source/Rows/SwitchRow.swift; sourceTree = "<group>"; };
+		309133A35B1E47B7D07C84BFFF907EE5 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		30E85E545CAD5BECAB6902EEABAD07B0 /* RuleRequired.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRequired.swift; path = Source/Validations/RuleRequired.swift; sourceTree = "<group>"; };
+		33E8E5931400BB01CAB9087F4F76874E /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		34B8C7CA0334424117E4A1AF9C732D22 /* Pods-BasePods-EurekaCreditCard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BasePods-EurekaCreditCard_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		354BFC8F5EE0BA609ADDAAC9AB02F3A8 /* BKCardNumberField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKCardNumberField.m; path = BKMoneyKit/BKCardNumberField.m; sourceTree = "<group>"; };
-		368BDD7EC94461F3C52E3C6EB29155BB /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		3AAA00EE6F6C33CAE461D3D42FADAF1F /* GenericMultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericMultipleSelectorRow.swift; path = Source/Rows/Common/GenericMultipleSelectorRow.swift; sourceTree = "<group>"; };
-		3F54C8D36AF33400CC9EF743265B207A /* SelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorRow.swift; path = Source/Rows/Common/SelectorRow.swift; sourceTree = "<group>"; };
-		3F9B08D82E05DAB9B957BAA8E3CEC77B /* Eureka-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-umbrella.h"; sourceTree = "<group>"; };
-		41D9E67C7FD520861BFA328D684FF624 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		44DF467C26697351BFB279F8E407FE76 /* DateInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineRow.swift; path = Source/Rows/DateInlineRow.swift; sourceTree = "<group>"; };
-		46BF89288D61F0B15C5BA3092D42C83D /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		49150919A8137BBCF2B6F2DB61867E85 /* BKMoneyKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BKMoneyKit-dummy.m"; sourceTree = "<group>"; };
-		4A9E3C9CBE0F8A8ECB7FE767F76DA2FC /* BKForwardingTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKForwardingTextField.m; path = BKMoneyKit/BKForwardingTextField.m; sourceTree = "<group>"; };
-		4BFDEC253A089CB7DA0F3F46CB2D5F87 /* BKCardNumberFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKCardNumberFormatter.m; path = BKMoneyKit/BKCardNumberFormatter.m; sourceTree = "<group>"; };
-		4E6BFE06708C01C53EB2A01B789EDF62 /* RowProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowProtocols.swift; path = Source/Core/RowProtocols.swift; sourceTree = "<group>"; };
-		5002CC6410AB468D224EBFA9319AA247 /* BKForwardingTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKForwardingTextField.h; path = BKMoneyKit/BKForwardingTextField.h; sourceTree = "<group>"; };
-		51677E84751BBF3D1FB6A2806AE2A69A /* MultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorRow.swift; path = Source/Rows/MultipleSelectorRow.swift; sourceTree = "<group>"; };
-		53AC47994E694192210F5CC831FDD620 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Source/Core/Operators.swift; sourceTree = "<group>"; };
+		35879A1CA4762DFE7BFFA816B163C51E /* FieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldRow.swift; path = Source/Rows/Common/FieldRow.swift; sourceTree = "<group>"; };
+		3974EE4A13042EF9599819E89ED8095C /* SelectableRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableRowType.swift; path = Source/Core/SelectableRowType.swift; sourceTree = "<group>"; };
+		39A4B27DA91267A8CFF9A148EA06212A /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		3B9FBAC231D7810D75A8349A9C45DA6C /* MultipleSelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorViewController.swift; path = Source/Rows/Controllers/MultipleSelectorViewController.swift; sourceTree = "<group>"; };
+		3D339A6C55D1BBF6404F58C1FFCE8A01 /* CardPatterns.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = CardPatterns.plist; path = BKMoneyKit/BKMoneyKit.bundle/CardPatterns.plist; sourceTree = "<group>"; };
+		4168BFC6078920E9FC6B6BF476F79A3B /* OptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionsRow.swift; path = Source/Rows/Common/OptionsRow.swift; sourceTree = "<group>"; };
+		440E011B2E41FD5EE736AC0B48FC4F45 /* RuleLength.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleLength.swift; path = Source/Validations/RuleLength.swift; sourceTree = "<group>"; };
+		44A44CA9420324C879064FB7A41B4F2E /* BaseRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRow.swift; path = Source/Core/BaseRow.swift; sourceTree = "<group>"; };
+		457B29B2AF8EC69A478DFE769930960B /* BKMoneyKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BKMoneyKit-prefix.pch"; sourceTree = "<group>"; };
+		4890FD58E348433811967D4D78BA5AFC /* BKCardPatternInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKCardPatternInfo.m; path = BKMoneyKit/BKCardPatternInfo.m; sourceTree = "<group>"; };
+		4EDC21D4CB40AE3CDCEBC84A6D64EF07 /* BKMoneyUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKMoneyUtils.h; path = BKMoneyKit/BKMoneyUtils.h; sourceTree = "<group>"; };
+		4FED6CF8FDC58AA655B38DE9FF6063F1 /* BKCardExpiryField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKCardExpiryField.m; path = BKMoneyKit/BKCardExpiryField.m; sourceTree = "<group>"; };
+		51818BC25D5A63240D73C8F5B791ABF3 /* BKCardPatternInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKCardPatternInfo.h; path = BKMoneyKit/BKCardPatternInfo.h; sourceTree = "<group>"; };
+		51B6848580F2BF85D3245B5F8B96930C /* DateFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFieldRow.swift; path = Source/Rows/Common/DateFieldRow.swift; sourceTree = "<group>"; };
 		53F442EC373759DC3033CD4CDD6F9B6C /* Pods-BasePods-EurekaCreditCard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BasePods-EurekaCreditCard_Example-dummy.m"; sourceTree = "<group>"; };
-		55C081E3C021D0D083F7779B618A7EA2 /* SegmentedRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRow.swift; path = Source/Rows/SegmentedRow.swift; sourceTree = "<group>"; };
+		54B31D0DE4153D275D50F4FA59744299 /* ListCheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCheckRow.swift; path = Source/Rows/SelectableRows/ListCheckRow.swift; sourceTree = "<group>"; };
+		54D15D5A5F13B8D9B570723FAB4517E3 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		551BA3745853127F4402339CBB68BEB1 /* SwitchRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchRow.swift; path = Source/Rows/SwitchRow.swift; sourceTree = "<group>"; };
+		56511A01C5724971A977370CDD82C9D6 /* Eureka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eureka-dummy.m"; sourceTree = "<group>"; };
+		576467F61C55826D43B935D85FF799EF /* MultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorRow.swift; path = Source/Rows/MultipleSelectorRow.swift; sourceTree = "<group>"; };
 		577BB223F98BB690EB86921F87FB53E2 /* Pods-BasePods-EurekaCreditCard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BasePods-EurekaCreditCard_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		583B42C1F36301DDA52B3CA55E8C6E92 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		5D332034A17CB9AB1FF9EC4D771D333D /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		5EA38C57971B3A67C806D34301821F84 /* BKCurrencyTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKCurrencyTextField.m; path = BKMoneyKit/BKCurrencyTextField.m; sourceTree = "<group>"; };
+		5830277EC1B0D4184929A3CE674492DE /* PresenterRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresenterRowType.swift; path = Source/Core/PresenterRowType.swift; sourceTree = "<group>"; };
+		58F1F02E3E9DF45E294C1C1CF3A0E884 /* AlertRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertRow.swift; path = Source/Rows/AlertRow.swift; sourceTree = "<group>"; };
+		5DF313C7DCF71DBDA3FA7059876245CD /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		5EF080963735FB4F80CE3FFD7661F44E /* BKForwardingTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKForwardingTextField.h; path = BKMoneyKit/BKForwardingTextField.h; sourceTree = "<group>"; };
+		5F57AE29217CD0A3A5F6C43399574AAB /* CheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRow.swift; path = Source/Rows/CheckRow.swift; sourceTree = "<group>"; };
 		602629879A441236D93E209A8D2EAA92 /* EurekaCreditCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EurekaCreditCard-prefix.pch"; sourceTree = "<group>"; };
-		625B4C7D4FADDDD065542C796174F2A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62C97C11C2E74363409CF036BCF63F37 /* Section.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Source/Core/Section.swift; sourceTree = "<group>"; };
-		641FD95B84523577EAC18108D51A52D0 /* TextAreaRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextAreaRow.swift; path = Source/Rows/TextAreaRow.swift; sourceTree = "<group>"; };
+		604B29F97CC9086B54F6ECFFB13FF963 /* RowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowType.swift; path = Source/Core/RowType.swift; sourceTree = "<group>"; };
+		6315E163DE4A72BC2B06EC303206ECCF /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		638BECC28EF8F579CB2D0759FD8B99B5 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		64F26566541CCA0501450DFD22E678F2 /* ResourceBundle-EurekaCreditCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EurekaCreditCard-Info.plist"; sourceTree = "<group>"; };
-		656855557AAD8520F1E5841EE24A17EF /* BKMoneyKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BKMoneyKit.modulemap; sourceTree = "<group>"; };
+		659F5AFE33A4F002CD4F5511463C7B52 /* NavigationAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationAccessoryView.swift; path = Source/Core/NavigationAccessoryView.swift; sourceTree = "<group>"; };
+		66D92EACB1913946A5B955154F3CB5E9 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		6779E0960F1CC4BE7B76B3AB14868015 /* Form.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Form.swift; path = Source/Core/Form.swift; sourceTree = "<group>"; };
+		687C4DB2D1B9469DF5ED68317F09FB1F /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRow.swift; path = Source/Rows/DatePickerRow.swift; sourceTree = "<group>"; };
 		68E3A90A3C77FBB1C5EE94FBE6A543EF /* EurekaCreditCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EurekaCreditCard.swift; sourceTree = "<group>"; };
+		69CD400670A615B9B23119C0341041E3 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		69D061D4A78322E07054373F597766BA /* Pods-BasePods-EurekaCreditCard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BasePods-EurekaCreditCard_Tests.modulemap"; sourceTree = "<group>"; };
-		6D0CF2DE91C6DD2CEF5B4490F0CC56F1 /* CheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRow.swift; path = Source/Rows/CheckRow.swift; sourceTree = "<group>"; };
+		6B35BCCC655F3FFCA879AECDB90FF380 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Core/Helpers.swift; sourceTree = "<group>"; };
+		6D8BCC7F8579EE29E87C3D1EE6BC2D8A /* BKCurrencyTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKCurrencyTextField.h; path = BKMoneyKit/BKCurrencyTextField.h; sourceTree = "<group>"; };
+		6F4BB95F15FA9EB61A40D3CE682C1AD1 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		6F98DA22D6B31BC0E097409140BAC768 /* Eureka.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eureka.xcconfig; sourceTree = "<group>"; };
 		708057808F9121E60F6196F4540EA68E /* BKMoneyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BKMoneyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7832731A870205F027005C9161E05621 /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = Source/Rows/Common/Protocols.swift; sourceTree = "<group>"; };
-		7A89C4FF9E950E57B6889BDACFE084F5 /* FieldsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldsRow.swift; path = Source/Rows/FieldsRow.swift; sourceTree = "<group>"; };
-		7BDC603E7AB7D804147BF6AAD6A8C9C4 /* DateInlineFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineFieldRow.swift; path = Source/Rows/Common/DateInlineFieldRow.swift; sourceTree = "<group>"; };
-		7E6B203C8B62DAE025A65DD57DD05726 /* CellType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellType.swift; path = Source/Core/CellType.swift; sourceTree = "<group>"; };
-		80EEC429B4E0FD7761F038EA553DF3E4 /* Eureka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Eureka.modulemap; sourceTree = "<group>"; };
-		81A38AFDF724FB20C62235F1B0B94229 /* SelectableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableSection.swift; path = Source/Core/SelectableSection.swift; sourceTree = "<group>"; };
-		81B1ED9562380E3F71B5586E2F469E27 /* FieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldRow.swift; path = Source/Rows/Common/FieldRow.swift; sourceTree = "<group>"; };
-		8360E77D96C411C3F5BE7D2EF7863F03 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		836D1A32763691D2075FA12773A904B6 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		850F9190628517D2D1E08B93E0A6A96C /* DecimalFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecimalFormatter.swift; path = Source/Rows/Common/DecimalFormatter.swift; sourceTree = "<group>"; };
+		715A7168BB1F23E5506D34F630CFD6D7 /* BKMoneyKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BKMoneyKit.modulemap; sourceTree = "<group>"; };
+		723D81CFBF7F4C413F58714C8FFF8E6B /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		74155B9994D4FA1B643539CF923C10BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74D6017678A686DA3667C6F457EE91C4 /* HeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderFooterView.swift; path = Source/Core/HeaderFooterView.swift; sourceTree = "<group>"; };
+		76B4EE0A3806719AFCBAC0EEF9E58EF3 /* PickerInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInlineRow.swift; path = Source/Rows/PickerInlineRow.swift; sourceTree = "<group>"; };
+		7E7E526F42CF65F1DAD37F9CF97B77AA /* RuleRegExp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRegExp.swift; path = Source/Validations/RuleRegExp.swift; sourceTree = "<group>"; };
+		83122CFF2E81CB556A02583A185F9E17 /* RuleURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleURL.swift; path = Source/Validations/RuleURL.swift; sourceTree = "<group>"; };
+		83283844D722812A5BFA294395B749CA /* SelectableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableSection.swift; path = Source/Core/SelectableSection.swift; sourceTree = "<group>"; };
 		8569483D0B0720433EA9472A1C0B35E1 /* Pods-BasePods-EurekaCreditCard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BasePods-EurekaCreditCard_Example-umbrella.h"; sourceTree = "<group>"; };
+		861F06A8A87941243804C27E2C0B63EC /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		87D035C3B6DFA41EFB6947D89671D352 /* Pods-BasePods-EurekaCreditCard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BasePods-EurekaCreditCard_Tests-dummy.m"; sourceTree = "<group>"; };
-		882AD91F67FCE2881E7D03267FD7DF85 /* BKCardNumberLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKCardNumberLabel.h; path = BKMoneyKit/BKCardNumberLabel.h; sourceTree = "<group>"; };
 		8A61227E9C23C78573DD19ED808BB1CC /* Pods-BasePods-EurekaCreditCard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BasePods-EurekaCreditCard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8BF92BDA9482205C5F74CE606257E661 /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRow.swift; path = Source/Rows/DatePickerRow.swift; sourceTree = "<group>"; };
-		8C387365ABDF519CAC001A212BCDDDC4 /* DateFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFieldRow.swift; path = Source/Rows/Common/DateFieldRow.swift; sourceTree = "<group>"; };
+		8AE4E7600B009EB3954AF265BD41E90D /* BKMoneyKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BKMoneyKit-dummy.m"; sourceTree = "<group>"; };
 		8CBE83B3DB740CA9F152C68C7BDB3EDB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CC6A0FB7C2F8E4D882C2403A441305B /* BKCardExpiryField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKCardExpiryField.h; path = BKMoneyKit/BKCardExpiryField.h; sourceTree = "<group>"; };
-		8E83E04707E9C4F7DF694D61F3FAE1EB /* BKMoneyUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKMoneyUtils.m; path = BKMoneyKit/BKMoneyUtils.m; sourceTree = "<group>"; };
+		8EF8B12EB0CEE15330A46ECCD5A64C93 /* BKMoneyKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BKMoneyKit.xcconfig; sourceTree = "<group>"; };
 		8F0BF9518513AEE122C2505A750A5B41 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90424A96D6C85470E1D62F8613E549A9 /* MultipleSelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorViewController.swift; path = Source/Rows/Controllers/MultipleSelectorViewController.swift; sourceTree = "<group>"; };
-		91B2D2BB8B068B8383D1ADFEB2C1C40A /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		8F8BD33828BFCEB4D11AAEA0050A65EE /* Row.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Row.swift; path = Source/Core/Row.swift; sourceTree = "<group>"; };
+		925B2D712BEE6547FF12859D60AB99DE /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		929B36C52A12F7370A1730AACFAF4967 /* BKCardNumberField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKCardNumberField.m; path = BKMoneyKit/BKCardNumberField.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9425286050C82F989EE661D304D8104E /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		978A4C8DFDFE56235B8A6C443DCA4ECF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		99190A852329A29F06D6BB2712314D49 /* InlineRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineRowType.swift; path = Source/Core/InlineRowType.swift; sourceTree = "<group>"; };
-		998EA047AC69F49B9A685DAFD60925C4 /* BKMoneyKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BKMoneyKit-prefix.pch"; sourceTree = "<group>"; };
-		9C5C4D69991EE055C83CFB180FA81BAC /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		9D2782EBB7085A60C3DDB416A5FE4054 /* BaseRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRow.swift; path = Source/Core/BaseRow.swift; sourceTree = "<group>"; };
+		9875F6C260E4AB193AAEC8D5D3B5D9EE /* ButtonRowWithPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRowWithPresent.swift; path = Source/Rows/ButtonRowWithPresent.swift; sourceTree = "<group>"; };
+		9A1F24716BD0EF258D318D031CD49D04 /* BKCardNumberField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKCardNumberField.h; path = BKMoneyKit/BKCardNumberField.h; sourceTree = "<group>"; };
+		9B6AA147B1174290E5B220E051B2D7B6 /* RowControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowControllerType.swift; path = Source/Core/RowControllerType.swift; sourceTree = "<group>"; };
+		9C2DA499720C4D361710743C6146720E /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Core/Validation.swift; sourceTree = "<group>"; };
 		9DF73B0D09A6635DF7634E2AF6771B45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9E414BBB0D338B65E1DE93C28D11633C /* Pods_BasePods_EurekaCreditCard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasePods_EurekaCreditCard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E5F989233C458B543A95708D2030D77 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		A028802F8BA9B257E8511E9DD169A723 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		A058E89DE881B847B3A4F96B0758A208 /* SelectorAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorAlertController.swift; path = Source/Rows/Controllers/SelectorAlertController.swift; sourceTree = "<group>"; };
-		A48735BCC9FC0BC6C0667FD3F4076574 /* PopoverSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverSelectorRow.swift; path = Source/Rows/PopoverSelectorRow.swift; sourceTree = "<group>"; };
-		A7D5B6C0D424A2779F4E205E7A9E8D04 /* DateRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRow.swift; path = Source/Rows/DateRow.swift; sourceTree = "<group>"; };
-		A8E15A7303D80F3F3D3E1C97974DC0BA /* PushRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushRow.swift; path = Source/Rows/PushRow.swift; sourceTree = "<group>"; };
-		AB76D8F0FF311220AAB6E38C18281BC6 /* PostalAddressRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostalAddressRow.swift; path = Source/Rows/PostalAddressRow.swift; sourceTree = "<group>"; };
-		AE8015AD767636882F82B111EDCC4E29 /* PickerInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInlineRow.swift; path = Source/Rows/PickerInlineRow.swift; sourceTree = "<group>"; };
-		AEB6141BC627BC4477B6D2D43394106B /* Eureka-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-prefix.pch"; sourceTree = "<group>"; };
+		A0A14EB99498E45044DBF88C7FC977A3 /* FieldsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldsRow.swift; path = Source/Rows/FieldsRow.swift; sourceTree = "<group>"; };
+		A0B260B3CD4A1482BDA6BFE29423C015 /* RuleRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRange.swift; path = Source/Validations/RuleRange.swift; sourceTree = "<group>"; };
+		A1033032ACC5C7E45F72DC081283BB74 /* BKCurrencyTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKCurrencyTextField.m; path = BKMoneyKit/BKCurrencyTextField.m; sourceTree = "<group>"; };
+		A21D99E11A352E4C8133042EF06CB7C5 /* BKCardNumberFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKCardNumberFormatter.m; path = BKMoneyKit/BKCardNumberFormatter.m; sourceTree = "<group>"; };
+		A2BD250AB4C14563351B4DF57E7ADB67 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		A2DCB52BD5FB4363736153726BA1E08F /* GenericMultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericMultipleSelectorRow.swift; path = Source/Rows/Common/GenericMultipleSelectorRow.swift; sourceTree = "<group>"; };
+		A81C9BF999B2EC88DEFD7CAD803692D6 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Source/Core/Operators.swift; sourceTree = "<group>"; };
+		A9983ABD9995D1AEDADB873CFCAD8227 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA12ABAFE34239112496F2EB90577E26 /* BKForwardingTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKForwardingTextField.m; path = BKMoneyKit/BKForwardingTextField.m; sourceTree = "<group>"; };
+		AAD5E7DBA6BA44FA68D45895185655F0 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		AED7A788C9F60DA769C7821D95034345 /* Pods-BasePods-EurekaCreditCard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BasePods-EurekaCreditCard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AF7743A500C0F0F58AF2AC903F0C7C65 /* EurekaCreditCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EurekaCreditCard.modulemap; sourceTree = "<group>"; };
-		B4320615B464187820177355AA04D6F7 /* CardPatterns.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = CardPatterns.plist; path = BKMoneyKit/BKMoneyKit.bundle/CardPatterns.plist; sourceTree = "<group>"; };
+		B431E9F4DDCFCE3D6EFEDD11C279CA6C /* ButtonRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRow.swift; path = Source/Rows/ButtonRow.swift; sourceTree = "<group>"; };
+		B4B74CEF4DCE7803E05AC2151D34F905 /* Eureka-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-umbrella.h"; sourceTree = "<group>"; };
 		B6E7FC7D158D30240BBA8FC3830F6412 /* EurekaCreditCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EurekaCreditCard-umbrella.h"; sourceTree = "<group>"; };
-		BB7100FB8182DC0A3395D10CEB4038B4 /* AlertRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertRow.swift; path = Source/Rows/AlertRow.swift; sourceTree = "<group>"; };
-		BBF01F80294FC3C752FB540CA52EAD9F /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		BD4F4274BAF0BACD67B5CE483A627957 /* SelectableRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableRowType.swift; path = Source/Core/SelectableRowType.swift; sourceTree = "<group>"; };
-		BEE5A13E1E2DC9BE4B6EFA0B6F3FD862 /* CardLogo */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = CardLogo; path = BKMoneyKit/BKMoneyKit.bundle/CardLogo; sourceTree = "<group>"; };
-		C1F68CDB967F5E7A501700D4E13CE23E /* BKCardPatternInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKCardPatternInfo.m; path = BKMoneyKit/BKCardPatternInfo.m; sourceTree = "<group>"; };
 		C28E17B41E04006309C2F38AB500DBB6 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32A0137FE9997B2B8308F2DEBD02EBE /* InlineRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineRowType.swift; path = Source/Core/InlineRowType.swift; sourceTree = "<group>"; };
+		C643453F8D10011F4E96E332BCE79085 /* SelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorRow.swift; path = Source/Rows/Common/SelectorRow.swift; sourceTree = "<group>"; };
 		C70F190AC4171971F77656E97A836046 /* Pods-BasePods-EurekaCreditCard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BasePods-EurekaCreditCard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C72B0005191542F5D13DCF452F81465A /* ActionSheetRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetRow.swift; path = Source/Rows/ActionSheetRow.swift; sourceTree = "<group>"; };
+		C7A5CE5200C676F4CA7E0DC8A6788471 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		CA1E2CFE86521D37F7635C324C351ADF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CAD5803F5A948B918DC09FD959E5C658 /* NavigationAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationAccessoryView.swift; path = Source/Core/NavigationAccessoryView.swift; sourceTree = "<group>"; };
-		CB3BD69D911DD750A82EEF75BD70A8FB /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		CBD96EE251CEB1100EBD12386B0155DA /* RowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowType.swift; path = Source/Core/RowType.swift; sourceTree = "<group>"; };
-		CEBF6B7B841B073A17B3D497F8CCEA20 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		CB154639F5CC37A0F99569B2DB1C2738 /* DecimalFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecimalFormatter.swift; path = Source/Rows/Common/DecimalFormatter.swift; sourceTree = "<group>"; };
+		CCE889F5F5D2EBEE2F20F079D59826CF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		CD162679180F1F3639AC751C9A79FC58 /* DateInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineRow.swift; path = Source/Rows/DateInlineRow.swift; sourceTree = "<group>"; };
 		CF19133C733D64FB2CC4D93688EE7DF3 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8D73E0DA54A31DC04D44530CA92F32 /* SelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorViewController.swift; path = Source/Rows/Controllers/SelectorViewController.swift; sourceTree = "<group>"; };
 		D0F5FC1A30A73AFA2BFBCEC787857C84 /* Pods-BasePods-EurekaCreditCard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BasePods-EurekaCreditCard_Example.modulemap"; sourceTree = "<group>"; };
+		D17171BC4C01A5C1501A19DE1D2B1FA6 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		D1DA57B5AF2F9CCD3C39C6BD7323E857 /* LabelRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelRow.swift; path = Source/Rows/LabelRow.swift; sourceTree = "<group>"; };
+		D2B9BAF7AF1E7A79545BF67520DF0D8F /* PopoverSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverSelectorRow.swift; path = Source/Rows/PopoverSelectorRow.swift; sourceTree = "<group>"; };
+		D4C0BF1CFF75D8D22C8AE30229FE6834 /* PushRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushRow.swift; path = Source/Rows/PushRow.swift; sourceTree = "<group>"; };
+		D5613B89403DF65EDDA2CA661851C650 /* BKCardExpiryField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKCardExpiryField.h; path = BKMoneyKit/BKCardExpiryField.h; sourceTree = "<group>"; };
 		D6701EC742C55B1B2A1DCB4F0E40CCAB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D75D71C48AB179A7AF6084351322D486 /* SliderRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRow.swift; path = Source/Rows/SliderRow.swift; sourceTree = "<group>"; };
-		D7F421C249CD05D69FB7D8AAD3391A9D /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		DA9DBFF592CB43A340BD8E9A1B2AC7E5 /* RowControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowControllerType.swift; path = Source/Core/RowControllerType.swift; sourceTree = "<group>"; };
-		DD56B931533FFA24CEE215144ACCA9DE /* BKCardNumberField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKCardNumberField.h; path = BKMoneyKit/BKCardNumberField.h; sourceTree = "<group>"; };
-		DF2AD5B3D4B741ED9D678D9C5B655656 /* BKMoneyKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BKMoneyKit-umbrella.h"; sourceTree = "<group>"; };
-		E3CE6315BC928F31D5B43B24A67E9D70 /* Row.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Row.swift; path = Source/Core/Row.swift; sourceTree = "<group>"; };
-		E4F941F3881E448B17D02E78EFE58582 /* BKMoneyKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BKMoneyKit.xcconfig; sourceTree = "<group>"; };
-		E64BF89E28C002F69AF4AF977B0A0D59 /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Source/Core/Core.swift; sourceTree = "<group>"; };
+		D8D3F0DF9DA8BBE8C5C40D08B576A399 /* Eureka.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Eureka.bundle; path = Source/Resources/Eureka.bundle; sourceTree = "<group>"; };
+		DC1A90755E8E450822608EF33EDA2483 /* BKMoneyUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKMoneyUtils.m; path = BKMoneyKit/BKMoneyUtils.m; sourceTree = "<group>"; };
+		DF9800742A933E84644A5C167077AA54 /* DateInlineFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineFieldRow.swift; path = Source/Rows/Common/DateInlineFieldRow.swift; sourceTree = "<group>"; };
+		E576615AB3B143A66FCB268B2AA0F58B /* StepperRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperRow.swift; path = Source/Rows/StepperRow.swift; sourceTree = "<group>"; };
+		E8176B743AD15AA20FA133C7E58EC1E7 /* PickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRow.swift; path = Source/Rows/PickerRow.swift; sourceTree = "<group>"; };
 		EA44FFA2EB978CE3312355577A48FBBB /* Pods-BasePods-EurekaCreditCard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BasePods-EurekaCreditCard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ED46B5FE87132EC0B640D7C2E2C7817C /* Eureka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eureka-dummy.m"; sourceTree = "<group>"; };
+		EB91B7EBB1835C093443DCE79A31A416 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		EED3EF25056BF919D8A0C0308BCEAEB2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		EF44122977BA0671B695AB778DCAA7FF /* BKMoneyUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKMoneyUtils.h; path = BKMoneyKit/BKMoneyUtils.h; sourceTree = "<group>"; };
 		EFDD8DF32B59F6B88B6141662619AED1 /* BKMoneyKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BKMoneyKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3B776175F80E06D096ABCEB15156539 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Core/Helpers.swift; sourceTree = "<group>"; };
-		F72036018E0FAF67A9FD7F70792D17EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F80C8324063AF95897A583D3DA1A5F2D /* OptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionsRow.swift; path = Source/Rows/Common/OptionsRow.swift; sourceTree = "<group>"; };
+		F434E1E336B07BE3BEAF09313BB4FDF2 /* Eureka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Eureka.modulemap; sourceTree = "<group>"; };
+		F71289107FFE2AC1B14378716BC4581B /* SegmentedRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRow.swift; path = Source/Rows/SegmentedRow.swift; sourceTree = "<group>"; };
 		F82807A6CBFE2949E4E35FCE1ADDB541 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		F8328642DDF611C1D3028C4A34AFA80D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA191077D770369876356214629DB558 /* TextAreaRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextAreaRow.swift; path = Source/Rows/TextAreaRow.swift; sourceTree = "<group>"; };
 		FA74CE4AAE0B95348B99EA2423F5BED1 /* EurekaCreditCard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EurekaCreditCard.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB5AF15FED0F774DB20285A9D85192F0 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		FBCC28ED855B594F6867CC01EB77FA45 /* BKMoneyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BKMoneyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDFCC8F9CD076C8C3748E8E8909BF38 /* Pods-BasePods-EurekaCreditCard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BasePods-EurekaCreditCard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FC19F1510E9B6A09FA6DDA5F8F9FABEF /* Form.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Form.swift; path = Source/Core/Form.swift; sourceTree = "<group>"; };
+		FE0E1EB88EA80439D976D9CD87CC8EE6 /* Section.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Source/Core/Section.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0883B652EBBDEB233C612202532B66C6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7DF0D078388923B8816F7D57910CFD42 /* Foundation.framework in Frameworks */,
-				B4C681E1639A0FCD1E5770370FA5027E /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		17078EB8F0A5BBDE7DE2D2A81257E48B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -406,6 +407,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE2B83EC0FCE8537BA433BCAA8B14FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072CA9CCA2B930B776F567EAC7BC1666 /* Foundation.framework in Frameworks */,
+				2C5B95B3105F48DCBD0DF12B4EB099D9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F1A13ADE6C7840452C8DD4B939BFD24B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,6 +437,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03578689B32593AAFC079A2FF56C8F21 /* Eureka */ = {
+			isa = PBXGroup;
+			children = (
+				0E2EADE9514C8FC5DECF570105517F5C /* ActionSheetRow.swift */,
+				58F1F02E3E9DF45E294C1C1CF3A0E884 /* AlertRow.swift */,
+				44A44CA9420324C879064FB7A41B4F2E /* BaseRow.swift */,
+				B431E9F4DDCFCE3D6EFEDD11C279CA6C /* ButtonRow.swift */,
+				9875F6C260E4AB193AAEC8D5D3B5D9EE /* ButtonRowWithPresent.swift */,
+				21C738F66485F642BAAA0E8F56E0A050 /* Cell.swift */,
+				1C6519A357AED8040137AC292718BE80 /* CellType.swift */,
+				5F57AE29217CD0A3A5F6C43399574AAB /* CheckRow.swift */,
+				1356190446EEA9AE00934CD099A8927A /* Core.swift */,
+				51B6848580F2BF85D3245B5F8B96930C /* DateFieldRow.swift */,
+				DF9800742A933E84644A5C167077AA54 /* DateInlineFieldRow.swift */,
+				CD162679180F1F3639AC751C9A79FC58 /* DateInlineRow.swift */,
+				687C4DB2D1B9469DF5ED68317F09FB1F /* DatePickerRow.swift */,
+				1DAA1E00C398054DDE1FEABB312068E6 /* DateRow.swift */,
+				CB154639F5CC37A0F99569B2DB1C2738 /* DecimalFormatter.swift */,
+				35879A1CA4762DFE7BFFA816B163C51E /* FieldRow.swift */,
+				A0A14EB99498E45044DBF88C7FC977A3 /* FieldsRow.swift */,
+				6779E0960F1CC4BE7B76B3AB14868015 /* Form.swift */,
+				A2DCB52BD5FB4363736153726BA1E08F /* GenericMultipleSelectorRow.swift */,
+				74D6017678A686DA3667C6F457EE91C4 /* HeaderFooterView.swift */,
+				6B35BCCC655F3FFCA879AECDB90FF380 /* Helpers.swift */,
+				C32A0137FE9997B2B8308F2DEBD02EBE /* InlineRowType.swift */,
+				D1DA57B5AF2F9CCD3C39C6BD7323E857 /* LabelRow.swift */,
+				54B31D0DE4153D275D50F4FA59744299 /* ListCheckRow.swift */,
+				576467F61C55826D43B935D85FF799EF /* MultipleSelectorRow.swift */,
+				3B9FBAC231D7810D75A8349A9C45DA6C /* MultipleSelectorViewController.swift */,
+				659F5AFE33A4F002CD4F5511463C7B52 /* NavigationAccessoryView.swift */,
+				A81C9BF999B2EC88DEFD7CAD803692D6 /* Operators.swift */,
+				4168BFC6078920E9FC6B6BF476F79A3B /* OptionsRow.swift */,
+				76B4EE0A3806719AFCBAC0EEF9E58EF3 /* PickerInlineRow.swift */,
+				E8176B743AD15AA20FA133C7E58EC1E7 /* PickerRow.swift */,
+				D2B9BAF7AF1E7A79545BF67520DF0D8F /* PopoverSelectorRow.swift */,
+				5830277EC1B0D4184929A3CE674492DE /* PresenterRowType.swift */,
+				272B72C65583C85EA83DC814B1EB67C9 /* Protocols.swift */,
+				D4C0BF1CFF75D8D22C8AE30229FE6834 /* PushRow.swift */,
+				8F8BD33828BFCEB4D11AAEA0050A65EE /* Row.swift */,
+				9B6AA147B1174290E5B220E051B2D7B6 /* RowControllerType.swift */,
+				0BA56703EBF2F355196901C8CC26BE26 /* RowProtocols.swift */,
+				604B29F97CC9086B54F6ECFFB13FF963 /* RowType.swift */,
+				1D9D93552A3B062BE1CC8BCAF2466601 /* RuleClosure.swift */,
+				152CA6DA8D508A218C38685C70952DB3 /* RuleEmail.swift */,
+				440E011B2E41FD5EE736AC0B48FC4F45 /* RuleLength.swift */,
+				A0B260B3CD4A1482BDA6BFE29423C015 /* RuleRange.swift */,
+				7E7E526F42CF65F1DAD37F9CF97B77AA /* RuleRegExp.swift */,
+				30E85E545CAD5BECAB6902EEABAD07B0 /* RuleRequired.swift */,
+				83122CFF2E81CB556A02583A185F9E17 /* RuleURL.swift */,
+				FE0E1EB88EA80439D976D9CD87CC8EE6 /* Section.swift */,
+				F71289107FFE2AC1B14378716BC4581B /* SegmentedRow.swift */,
+				3974EE4A13042EF9599819E89ED8095C /* SelectableRowType.swift */,
+				83283844D722812A5BFA294395B749CA /* SelectableSection.swift */,
+				0007F89B3B6518AEF753E54C28710326 /* SelectorAlertController.swift */,
+				C643453F8D10011F4E96E332BCE79085 /* SelectorRow.swift */,
+				CF8D73E0DA54A31DC04D44530CA92F32 /* SelectorViewController.swift */,
+				15D622D713E63DADBB5B995A38977A19 /* SliderRow.swift */,
+				E576615AB3B143A66FCB268B2AA0F58B /* StepperRow.swift */,
+				551BA3745853127F4402339CBB68BEB1 /* SwitchRow.swift */,
+				FA191077D770369876356214629DB558 /* TextAreaRow.swift */,
+				9C2DA499720C4D361710743C6146720E /* Validation.swift */,
+				BBBACD27756BA4464BDFED6D1048D328 /* Resources */,
+				B5D212516C94177C42E0A2D648FDE1F8 /* Support Files */,
+			);
+			path = Eureka;
+			sourceTree = "<group>";
+		};
 		049687878EEFF048754F4A0EACE336E3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -442,29 +519,14 @@
 			path = "Example/Pods/Target Support Files/EurekaCreditCard";
 			sourceTree = "<group>";
 		};
-		0690F3982FFAB30FD555E04F7DC2B564 /* BKMoneyKit */ = {
+		0E482C702FBAE9662EB190710DD1B8EA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8CC6A0FB7C2F8E4D882C2403A441305B /* BKCardExpiryField.h */,
-				24EE772A976C8C3BA501D904848759B7 /* BKCardExpiryField.m */,
-				DD56B931533FFA24CEE215144ACCA9DE /* BKCardNumberField.h */,
-				354BFC8F5EE0BA609ADDAAC9AB02F3A8 /* BKCardNumberField.m */,
-				2572653CDCEB7BC54102CD4EBC7D7F6D /* BKCardNumberFormatter.h */,
-				4BFDEC253A089CB7DA0F3F46CB2D5F87 /* BKCardNumberFormatter.m */,
-				882AD91F67FCE2881E7D03267FD7DF85 /* BKCardNumberLabel.h */,
-				21E654CAE721A29E0DAE77A66856631E /* BKCardNumberLabel.m */,
-				2B82CD4A9FE65FA09D013755621C10D3 /* BKCardPatternInfo.h */,
-				C1F68CDB967F5E7A501700D4E13CE23E /* BKCardPatternInfo.m */,
-				118CD718077B45BA17106A289A7685E5 /* BKCurrencyTextField.h */,
-				5EA38C57971B3A67C806D34301821F84 /* BKCurrencyTextField.m */,
-				5002CC6410AB468D224EBFA9319AA247 /* BKForwardingTextField.h */,
-				4A9E3C9CBE0F8A8ECB7FE767F76DA2FC /* BKForwardingTextField.m */,
-				EF44122977BA0671B695AB778DCAA7FF /* BKMoneyUtils.h */,
-				8E83E04707E9C4F7DF694D61F3FAE1EB /* BKMoneyUtils.m */,
-				7079A932EF6708FFBA8EBEB5630D7D0A /* Resources */,
-				FF97EA142C33CDE5EF15AA21769D1160 /* Support Files */,
+				5C18574CF2382C68F72C7CA89A12872B /* BKMoneyKit */,
+				03578689B32593AAFC079A2FF56C8F21 /* Eureka */,
+				C58BE2273AE7E73C0AC7A74F8BD9E055 /* FBSnapshotTestCase */,
 			);
-			path = BKMoneyKit;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		1E61390B8BDE90A5BBC604209F4EBB15 /* Frameworks */ = {
@@ -477,76 +539,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1E77CA4B66B7B20FEC82492E2FDE25A8 /* Pods */ = {
+		3725438C31D95912CD902097EACBD4B6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0690F3982FFAB30FD555E04F7DC2B564 /* BKMoneyKit */,
-				2EBF9D0B9DC03E1014B746A80EF3FBC0 /* Eureka */,
-				B4B53244884EE8A7690D47A101CB0DC4 /* FBSnapshotTestCase */,
+				00FB0B09AA5232E564B66CF2CB438092 /* CardLogo */,
+				3D339A6C55D1BBF6404F58C1FFCE8A01 /* CardPatterns.plist */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		2EBF9D0B9DC03E1014B746A80EF3FBC0 /* Eureka */ = {
-			isa = PBXGroup;
-			children = (
-				C72B0005191542F5D13DCF452F81465A /* ActionSheetRow.swift */,
-				BB7100FB8182DC0A3395D10CEB4038B4 /* AlertRow.swift */,
-				9D2782EBB7085A60C3DDB416A5FE4054 /* BaseRow.swift */,
-				24F9051056CAE0B6A6CF132E644175C1 /* ButtonRow.swift */,
-				1A09497D2FE290E20D42DDBEB4F2609C /* ButtonRowWithPresent.swift */,
-				01A1F570B98B831E0B66323630A213FD /* Cell.swift */,
-				7E6B203C8B62DAE025A65DD57DD05726 /* CellType.swift */,
-				6D0CF2DE91C6DD2CEF5B4490F0CC56F1 /* CheckRow.swift */,
-				E64BF89E28C002F69AF4AF977B0A0D59 /* Core.swift */,
-				8C387365ABDF519CAC001A212BCDDDC4 /* DateFieldRow.swift */,
-				7BDC603E7AB7D804147BF6AAD6A8C9C4 /* DateInlineFieldRow.swift */,
-				44DF467C26697351BFB279F8E407FE76 /* DateInlineRow.swift */,
-				8BF92BDA9482205C5F74CE606257E661 /* DatePickerRow.swift */,
-				A7D5B6C0D424A2779F4E205E7A9E8D04 /* DateRow.swift */,
-				850F9190628517D2D1E08B93E0A6A96C /* DecimalFormatter.swift */,
-				81B1ED9562380E3F71B5586E2F469E27 /* FieldRow.swift */,
-				7A89C4FF9E950E57B6889BDACFE084F5 /* FieldsRow.swift */,
-				FC19F1510E9B6A09FA6DDA5F8F9FABEF /* Form.swift */,
-				3AAA00EE6F6C33CAE461D3D42FADAF1F /* GenericMultipleSelectorRow.swift */,
-				191BD5F525B9B244D89610B6A610E1FD /* HeaderFooterView.swift */,
-				F3B776175F80E06D096ABCEB15156539 /* Helpers.swift */,
-				1120E9DA66A6BD2D220559E3DB03CA13 /* ImagePickerController.swift */,
-				2007D51F23D2745D6D7A515372F347EA /* ImageRow.swift */,
-				99190A852329A29F06D6BB2712314D49 /* InlineRowType.swift */,
-				0FB84D923DE67142DA71F839048BF4AB /* LabelRow.swift */,
-				09DD2822C3EC15A6F1702B5DF167DE64 /* ListCheckRow.swift */,
-				51677E84751BBF3D1FB6A2806AE2A69A /* MultipleSelectorRow.swift */,
-				90424A96D6C85470E1D62F8613E549A9 /* MultipleSelectorViewController.swift */,
-				CAD5803F5A948B918DC09FD959E5C658 /* NavigationAccessoryView.swift */,
-				53AC47994E694192210F5CC831FDD620 /* Operators.swift */,
-				F80C8324063AF95897A583D3DA1A5F2D /* OptionsRow.swift */,
-				AE8015AD767636882F82B111EDCC4E29 /* PickerInlineRow.swift */,
-				12F2D2013DA7806E4E82D95C3CD9E5BB /* PickerRow.swift */,
-				A48735BCC9FC0BC6C0667FD3F4076574 /* PopoverSelectorRow.swift */,
-				AB76D8F0FF311220AAB6E38C18281BC6 /* PostalAddressRow.swift */,
-				19C188EE27319404C2E9E6EA816FE5FD /* PresenterRowType.swift */,
-				7832731A870205F027005C9161E05621 /* Protocols.swift */,
-				A8E15A7303D80F3F3D3E1C97974DC0BA /* PushRow.swift */,
-				E3CE6315BC928F31D5B43B24A67E9D70 /* Row.swift */,
-				DA9DBFF592CB43A340BD8E9A1B2AC7E5 /* RowControllerType.swift */,
-				4E6BFE06708C01C53EB2A01B789EDF62 /* RowProtocols.swift */,
-				CBD96EE251CEB1100EBD12386B0155DA /* RowType.swift */,
-				62C97C11C2E74363409CF036BCF63F37 /* Section.swift */,
-				55C081E3C021D0D083F7779B618A7EA2 /* SegmentedRow.swift */,
-				BD4F4274BAF0BACD67B5CE483A627957 /* SelectableRowType.swift */,
-				81A38AFDF724FB20C62235F1B0B94229 /* SelectableSection.swift */,
-				A058E89DE881B847B3A4F96B0758A208 /* SelectorAlertController.swift */,
-				3F54C8D36AF33400CC9EF743265B207A /* SelectorRow.swift */,
-				0FC364323C2BDB73B02EF0BC41AA91A2 /* SelectorViewController.swift */,
-				D75D71C48AB179A7AF6084351322D486 /* SliderRow.swift */,
-				02CDED13D2C47EADEB75B3BBC36264F4 /* StepperRow.swift */,
-				336FE0B9920DB97C8707C7EEAB0A90DB /* SwitchRow.swift */,
-				641FD95B84523577EAC18108D51A52D0 /* TextAreaRow.swift */,
-				9E90949744F3BEADCE4722F0C4E22D47 /* Resources */,
-				D68480E650E8A2515E34756B60029557 /* Support Files */,
-			);
-			path = Eureka;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		3890C559EE1A906B3291671413112D05 /* Pod */ = {
@@ -557,18 +556,29 @@
 			path = Pod;
 			sourceTree = "<group>";
 		};
-		555095FCAD1952137CCD23EDA8BD664D /* Support Files */ = {
+		5C18574CF2382C68F72C7CA89A12872B /* BKMoneyKit */ = {
 			isa = PBXGroup;
 			children = (
-				BBF01F80294FC3C752FB540CA52EAD9F /* FBSnapshotTestCase.modulemap */,
-				8360E77D96C411C3F5BE7D2EF7863F03 /* FBSnapshotTestCase.xcconfig */,
-				9E5F989233C458B543A95708D2030D77 /* FBSnapshotTestCase-dummy.m */,
-				41D9E67C7FD520861BFA328D684FF624 /* FBSnapshotTestCase-prefix.pch */,
-				46BF89288D61F0B15C5BA3092D42C83D /* FBSnapshotTestCase-umbrella.h */,
-				F8328642DDF611C1D3028C4A34AFA80D /* Info.plist */,
+				D5613B89403DF65EDDA2CA661851C650 /* BKCardExpiryField.h */,
+				4FED6CF8FDC58AA655B38DE9FF6063F1 /* BKCardExpiryField.m */,
+				9A1F24716BD0EF258D318D031CD49D04 /* BKCardNumberField.h */,
+				929B36C52A12F7370A1730AACFAF4967 /* BKCardNumberField.m */,
+				0F9AC0D6783AB8A9AA8A86177B1C5C51 /* BKCardNumberFormatter.h */,
+				A21D99E11A352E4C8133042EF06CB7C5 /* BKCardNumberFormatter.m */,
+				021F7BFDACA90466C226B2830A039991 /* BKCardNumberLabel.h */,
+				184ECC6314481F59709A1E5F4A44EEA7 /* BKCardNumberLabel.m */,
+				51818BC25D5A63240D73C8F5B791ABF3 /* BKCardPatternInfo.h */,
+				4890FD58E348433811967D4D78BA5AFC /* BKCardPatternInfo.m */,
+				6D8BCC7F8579EE29E87C3D1EE6BC2D8A /* BKCurrencyTextField.h */,
+				A1033032ACC5C7E45F72DC081283BB74 /* BKCurrencyTextField.m */,
+				5EF080963735FB4F80CE3FFD7661F44E /* BKForwardingTextField.h */,
+				AA12ABAFE34239112496F2EB90577E26 /* BKForwardingTextField.m */,
+				4EDC21D4CB40AE3CDCEBC84A6D64EF07 /* BKMoneyUtils.h */,
+				DC1A90755E8E450822608EF33EDA2483 /* BKMoneyUtils.m */,
+				3725438C31D95912CD902097EACBD4B6 /* Resources */,
+				DB8BAF1F6515A86092950BFFEF3FA85A /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
+			path = BKMoneyKit;
 			sourceTree = "<group>";
 		};
 		5FEBB23E5A4BCAA2D9D5361FFC0DC1D7 /* iOS */ = {
@@ -590,15 +600,6 @@
 			);
 			name = EurekaCreditCard;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		7079A932EF6708FFBA8EBEB5630D7D0A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				BEE5A13E1E2DC9BE4B6EFA0B6F3FD862 /* CardLogo */,
-				B4320615B464187820177355AA04D6F7 /* CardPatterns.plist */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		76B625B586F98D6D419C8577038B8D0B /* Pods-BasePods-EurekaCreditCard_Tests */ = {
@@ -625,7 +626,7 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				A3F28C46341A9D1DB25A9931AE56D443 /* Development Pods */,
 				1E61390B8BDE90A5BBC604209F4EBB15 /* Frameworks */,
-				1E77CA4B66B7B20FEC82492E2FDE25A8 /* Pods */,
+				0E482C702FBAE9662EB190710DD1B8EA /* Pods */,
 				BCDDD20CDED6B5E7DABBE5EA75BB3395 /* Products */,
 				C2B4820063EEA95D3E5B655918A6F503 /* Targets Support Files */,
 			);
@@ -649,22 +650,6 @@
 			path = "Target Support Files/Pods-BasePods-EurekaCreditCard_Example";
 			sourceTree = "<group>";
 		};
-		9D79A5FDD2B5E31BC98C652CDE95C0A7 /* SwiftSupport */ = {
-			isa = PBXGroup;
-			children = (
-				9425286050C82F989EE661D304D8104E /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		9E90949744F3BEADCE4722F0C4E22D47 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				19B8E74F6BA33F41433B4197ECFBE4B9 /* Eureka.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		A3F28C46341A9D1DB25A9931AE56D443 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -681,14 +666,55 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		B4B53244884EE8A7690D47A101CB0DC4 /* FBSnapshotTestCase */ = {
+		B5D212516C94177C42E0A2D648FDE1F8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FD5E594684A5F9A6F570A929A9EB895A /* Core */,
-				555095FCAD1952137CCD23EDA8BD664D /* Support Files */,
-				9D79A5FDD2B5E31BC98C652CDE95C0A7 /* SwiftSupport */,
+				F434E1E336B07BE3BEAF09313BB4FDF2 /* Eureka.modulemap */,
+				6F98DA22D6B31BC0E097409140BAC768 /* Eureka.xcconfig */,
+				56511A01C5724971A977370CDD82C9D6 /* Eureka-dummy.m */,
+				1112C7760CE489B1F35A06660FA6AACD /* Eureka-prefix.pch */,
+				B4B74CEF4DCE7803E05AC2151D34F905 /* Eureka-umbrella.h */,
+				1DEE45DCADE5E4B06B0D941670AF88C3 /* Info.plist */,
 			);
-			path = FBSnapshotTestCase;
+			name = "Support Files";
+			path = "../Target Support Files/Eureka";
+			sourceTree = "<group>";
+		};
+		B8175271F7AD4333176B83899F3F53FB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				309133A35B1E47B7D07C84BFFF907EE5 /* FBSnapshotTestCase.h */,
+				5DF313C7DCF71DBDA3FA7059876245CD /* FBSnapshotTestCase.m */,
+				0CF58FA2F12F708C30439A4BE2090E67 /* FBSnapshotTestCasePlatform.h */,
+				723D81CFBF7F4C413F58714C8FFF8E6B /* FBSnapshotTestCasePlatform.m */,
+				39A4B27DA91267A8CFF9A148EA06212A /* FBSnapshotTestController.h */,
+				925B2D712BEE6547FF12859D60AB99DE /* FBSnapshotTestController.m */,
+				AAD5E7DBA6BA44FA68D45895185655F0 /* UIApplication+StrictKeyWindow.h */,
+				69CD400670A615B9B23119C0341041E3 /* UIApplication+StrictKeyWindow.m */,
+				33E8E5931400BB01CAB9087F4F76874E /* UIImage+Compare.h */,
+				6315E163DE4A72BC2B06EC303206ECCF /* UIImage+Compare.m */,
+				54D15D5A5F13B8D9B570723FAB4517E3 /* UIImage+Diff.h */,
+				EB91B7EBB1835C093443DCE79A31A416 /* UIImage+Diff.m */,
+				D17171BC4C01A5C1501A19DE1D2B1FA6 /* UIImage+Snapshot.h */,
+				C7A5CE5200C676F4CA7E0DC8A6788471 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B9A480A17AA7CCA8B6C314E661E73E32 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				66D92EACB1913946A5B955154F3CB5E9 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		BBBACD27756BA4464BDFED6D1048D328 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8D3F0DF9DA8BBE8C5C40D08B576A399 /* Eureka.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		BCDDD20CDED6B5E7DABBE5EA75BB3395 /* Products */ = {
@@ -715,54 +741,43 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D68480E650E8A2515E34756B60029557 /* Support Files */ = {
+		C58BE2273AE7E73C0AC7A74F8BD9E055 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
-				80EEC429B4E0FD7761F038EA553DF3E4 /* Eureka.modulemap */,
-				00E3BB56C117A4376CDEFCEBDA069D2D /* Eureka.xcconfig */,
-				ED46B5FE87132EC0B640D7C2E2C7817C /* Eureka-dummy.m */,
-				AEB6141BC627BC4477B6D2D43394106B /* Eureka-prefix.pch */,
-				3F9B08D82E05DAB9B957BAA8E3CEC77B /* Eureka-umbrella.h */,
-				F72036018E0FAF67A9FD7F70792D17EB /* Info.plist */,
+				B8175271F7AD4333176B83899F3F53FB /* Core */,
+				ECCC1538A31DC2D08FE8172BBE59783E /* Support Files */,
+				B9A480A17AA7CCA8B6C314E661E73E32 /* SwiftSupport */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Eureka";
+			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		FD5E594684A5F9A6F570A929A9EB895A /* Core */ = {
+		DB8BAF1F6515A86092950BFFEF3FA85A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				91B2D2BB8B068B8383D1ADFEB2C1C40A /* FBSnapshotTestCase.h */,
-				FB5AF15FED0F774DB20285A9D85192F0 /* FBSnapshotTestCase.m */,
-				9C5C4D69991EE055C83CFB180FA81BAC /* FBSnapshotTestCasePlatform.h */,
-				368BDD7EC94461F3C52E3C6EB29155BB /* FBSnapshotTestCasePlatform.m */,
-				583B42C1F36301DDA52B3CA55E8C6E92 /* FBSnapshotTestController.h */,
-				2C24B51806A60051E10D39EE0234A01D /* FBSnapshotTestController.m */,
-				5D332034A17CB9AB1FF9EC4D771D333D /* UIApplication+StrictKeyWindow.h */,
-				CB3BD69D911DD750A82EEF75BD70A8FB /* UIApplication+StrictKeyWindow.m */,
-				002BAEAC5F969708B931A7A49B1E2D52 /* UIImage+Compare.h */,
-				2F299140D60F1A5DFCD748F2CA0A8F72 /* UIImage+Compare.m */,
-				836D1A32763691D2075FA12773A904B6 /* UIImage+Diff.h */,
-				D7F421C249CD05D69FB7D8AAD3391A9D /* UIImage+Diff.m */,
-				CEBF6B7B841B073A17B3D497F8CCEA20 /* UIImage+Snapshot.h */,
-				A028802F8BA9B257E8511E9DD169A723 /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		FF97EA142C33CDE5EF15AA21769D1160 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				656855557AAD8520F1E5841EE24A17EF /* BKMoneyKit.modulemap */,
-				E4F941F3881E448B17D02E78EFE58582 /* BKMoneyKit.xcconfig */,
-				49150919A8137BBCF2B6F2DB61867E85 /* BKMoneyKit-dummy.m */,
-				998EA047AC69F49B9A685DAFD60925C4 /* BKMoneyKit-prefix.pch */,
-				DF2AD5B3D4B741ED9D678D9C5B655656 /* BKMoneyKit-umbrella.h */,
-				625B4C7D4FADDDD065542C796174F2A0 /* Info.plist */,
-				19130357D80768A062551E96D5D4FE81 /* ResourceBundle-BKMoneyKit-Info.plist */,
+				715A7168BB1F23E5506D34F630CFD6D7 /* BKMoneyKit.modulemap */,
+				8EF8B12EB0CEE15330A46ECCD5A64C93 /* BKMoneyKit.xcconfig */,
+				8AE4E7600B009EB3954AF265BD41E90D /* BKMoneyKit-dummy.m */,
+				457B29B2AF8EC69A478DFE769930960B /* BKMoneyKit-prefix.pch */,
+				207E12579A50BA3F44E6AD65DB0A0258 /* BKMoneyKit-umbrella.h */,
+				74155B9994D4FA1B643539CF923C10BE /* Info.plist */,
+				159DF318A5C18138D516A337BB4EB797 /* ResourceBundle-BKMoneyKit-Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/BKMoneyKit";
+			sourceTree = "<group>";
+		};
+		ECCC1538A31DC2D08FE8172BBE59783E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F4BB95F15FA9EB61A40D3CE682C1AD1 /* FBSnapshotTestCase.modulemap */,
+				CCE889F5F5D2EBEE2F20F079D59826CF /* FBSnapshotTestCase.xcconfig */,
+				638BECC28EF8F579CB2D0759FD8B99B5 /* FBSnapshotTestCase-dummy.m */,
+				861F06A8A87941243804C27E2C0B63EC /* FBSnapshotTestCase-prefix.pch */,
+				A2BD250AB4C14563351B4DF57E7ADB67 /* FBSnapshotTestCase-umbrella.h */,
+				A9983ABD9995D1AEDADB873CFCAD8227 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -799,11 +814,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7EDF7059C8541FFEA52A5075941329EE /* Headers */ = {
+		46A8F015FF72B8873D7849C18F597FD0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				103473BC0EFC477EB654B475B6AC8458 /* Eureka-umbrella.h in Headers */,
+				3C15E44B6003282E5BE62A3D32D85A2A /* Eureka-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -873,24 +888,6 @@
 			productReference = FBCC28ED855B594F6867CC01EB77FA45 /* BKMoneyKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4332352E97A37C729DC7D9B3B8A4BB15 /* Eureka */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 06CAE4617A9C4BF458755F5C4A516944 /* Build configuration list for PBXNativeTarget "Eureka" */;
-			buildPhases = (
-				8DBCEEFE2C0CBEDE4175E4E52D3B92D8 /* Sources */,
-				0883B652EBBDEB233C612202532B66C6 /* Frameworks */,
-				83BA61C6C975205F257CFAC4425941B1 /* Resources */,
-				7EDF7059C8541FFEA52A5075941329EE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Eureka;
-			productName = Eureka;
-			productReference = 8F0BF9518513AEE122C2505A750A5B41 /* Eureka.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		4DA7BE2960882127BAAD77F1A3942775 /* EurekaCreditCard */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9945AEC3EF1E2C79B53455F68CB1BF34 /* Build configuration list for PBXNativeTarget "EurekaCreditCard" */;
@@ -945,6 +942,24 @@
 			productName = "BKMoneyKit-BKMoneyKit";
 			productReference = EFDD8DF32B59F6B88B6141662619AED1 /* BKMoneyKit.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		873B1A0D84F1FF2C0ECD8A2440705B43 /* Eureka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE17FD22F754341BD6DBF1E339AAF8A4 /* Build configuration list for PBXNativeTarget "Eureka" */;
+			buildPhases = (
+				C43AAC6F8D19904C0EB7666E96B8B1D6 /* Sources */,
+				CE2B83EC0FCE8537BA433BCAA8B14FF5 /* Frameworks */,
+				52DC994007D06EF6E18A6327FC53EFFE /* Resources */,
+				46A8F015FF72B8873D7849C18F597FD0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eureka;
+			productName = Eureka;
+			productReference = 8F0BF9518513AEE122C2505A750A5B41 /* Eureka.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		D846D3A34B98DA4282458F6EA8BC3AD6 /* Pods-BasePods-EurekaCreditCard_Tests */ = {
 			isa = PBXNativeTarget;
@@ -1007,7 +1022,7 @@
 			targets = (
 				431BD71DD00D0946A95A9EB7A1724B48 /* BKMoneyKit */,
 				87326F21B0E8E8891F503DF1562B4390 /* BKMoneyKit-BKMoneyKit */,
-				4332352E97A37C729DC7D9B3B8A4BB15 /* Eureka */,
+				873B1A0D84F1FF2C0ECD8A2440705B43 /* Eureka */,
 				4DA7BE2960882127BAAD77F1A3942775 /* EurekaCreditCard */,
 				FB46322D3FDAD512E27A367ADB897635 /* EurekaCreditCard-EurekaCreditCard */,
 				5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */,
@@ -1018,19 +1033,19 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		52DC994007D06EF6E18A6327FC53EFFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A551C55FCF0AAB8BE1CBBD05B73BC4 /* Eureka.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A0289208DB6A43E1CFD97BBE2882B90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C2F990A562665C4001A628AF63D59EBD /* EurekaCreditCard.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83BA61C6C975205F257CFAC4425941B1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8D8B33F5C3E48D535F8189C52650B20F /* Eureka.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1108,67 +1123,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DBCEEFE2C0CBEDE4175E4E52D3B92D8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				804B6D74785196303EB645CCD1C79EE5 /* ActionSheetRow.swift in Sources */,
-				9530B28AFF019AC003E5A01ADAA19A7D /* AlertRow.swift in Sources */,
-				3695144974EC7EB912EF8583DD8E2CDB /* BaseRow.swift in Sources */,
-				86B4E86B605F0A0A5C689E8E5F6294E5 /* ButtonRow.swift in Sources */,
-				21F799472851BCE6A130A97729507B4C /* ButtonRowWithPresent.swift in Sources */,
-				5A74A0CAB51128C71D0519EA90F6DD0F /* Cell.swift in Sources */,
-				0AA48424DE5670B8C032BA88393BA9FA /* CellType.swift in Sources */,
-				7D91ACD6586867700438C1CC2557BEF7 /* CheckRow.swift in Sources */,
-				1D8A48631192F6D377B97D5EF0AFE16C /* Core.swift in Sources */,
-				CC70C7CF7A63CD3F4256B64D58C551B4 /* DateFieldRow.swift in Sources */,
-				D9C4B34950478B1AD2F3ED1E39086298 /* DateInlineFieldRow.swift in Sources */,
-				D2EC301A80E6CFB2F650FF088412F8A7 /* DateInlineRow.swift in Sources */,
-				0E4FBDBCB07782C2AE7B6D7AF92F51D8 /* DatePickerRow.swift in Sources */,
-				E35126F5E99598B42315A9C9F5C41DEA /* DateRow.swift in Sources */,
-				1662FE9A42490639B7E2A1F401D5D4DD /* DecimalFormatter.swift in Sources */,
-				660E29286B4C961F1181530F3E7A046E /* Eureka-dummy.m in Sources */,
-				DCAEB773C1E1C0CF94EE92A9AA99C329 /* FieldRow.swift in Sources */,
-				1FE5D469BDAAFF0030F0AE5780975A4A /* FieldsRow.swift in Sources */,
-				600D6836E73F7FBCAA1F493AFDFC4EBA /* Form.swift in Sources */,
-				E7744BDE6B307E60F1840FB7DF8416B1 /* GenericMultipleSelectorRow.swift in Sources */,
-				6152633CCB6B0254E42C00D98BC28A13 /* HeaderFooterView.swift in Sources */,
-				6775B0346C810AB8CF4380B44BEE1750 /* Helpers.swift in Sources */,
-				34D053EE46DEC5C7CA0F7F5EDBAE1F93 /* ImagePickerController.swift in Sources */,
-				E774FD99645675D8738D90037FD68F28 /* ImageRow.swift in Sources */,
-				72F0F49C15C14D0EB94206F776713672 /* InlineRowType.swift in Sources */,
-				0A50C03F56AD58898CA2A7C6113C4EF4 /* LabelRow.swift in Sources */,
-				A31A287529CB6FB1E3AD604BA7808EE2 /* ListCheckRow.swift in Sources */,
-				A31A3E644C08304B82EA33D5CC49F642 /* MultipleSelectorRow.swift in Sources */,
-				A6792D1386AD67459293295DD80323B3 /* MultipleSelectorViewController.swift in Sources */,
-				2956D2538D326F528DF52EF888FFDBE9 /* NavigationAccessoryView.swift in Sources */,
-				3256698B182CE03454CDC45A2771B89A /* Operators.swift in Sources */,
-				4E34E7BB952EDEEF27B5727A49B09974 /* OptionsRow.swift in Sources */,
-				58E2E4E04C8A365ABB02A4E62D566772 /* PickerInlineRow.swift in Sources */,
-				3607E6F07FF8C4B04B6507C7077F637C /* PickerRow.swift in Sources */,
-				13CB51A5F85CF122676966CB347260BC /* PopoverSelectorRow.swift in Sources */,
-				C3D9FD39975FFCE3B1EA1968F6453426 /* PostalAddressRow.swift in Sources */,
-				F6489B5AA612A6B9DDA466AED1657023 /* PresenterRowType.swift in Sources */,
-				A139110B451BC866C4D19E805577391D /* Protocols.swift in Sources */,
-				A6F16B6CC1ED4C25031775A12FD730BB /* PushRow.swift in Sources */,
-				E994C7B3AD81F25A03886A4E6AA327C0 /* Row.swift in Sources */,
-				3E656AE0B15BCA426C714CC40539F60C /* RowControllerType.swift in Sources */,
-				22D80D75A3155009821CBE44E7A29298 /* RowProtocols.swift in Sources */,
-				2B7186AE8B80A62112C769454EDF350F /* RowType.swift in Sources */,
-				DBC4386DDD9D7096D8ABBB355B5E4DD0 /* Section.swift in Sources */,
-				DE644832B971D2031EF0246712692779 /* SegmentedRow.swift in Sources */,
-				969E0DB9B80ADF2681C84C68C174BB38 /* SelectableRowType.swift in Sources */,
-				0B54D47F4061120A46717916BCAD2393 /* SelectableSection.swift in Sources */,
-				D511F885870A7B7E7CB3199D645EB0E9 /* SelectorAlertController.swift in Sources */,
-				942583935EB712BC81E5F01919E1EFD7 /* SelectorRow.swift in Sources */,
-				94216BFB2AF1B7F1CD43B0401A623F70 /* SelectorViewController.swift in Sources */,
-				93748EA49FCD9EF155AFCFFD9CEA8136 /* SliderRow.swift in Sources */,
-				B01D4D0408E01DE7CC0EC5402D8D9F00 /* StepperRow.swift in Sources */,
-				B7DB4B868834CC37618900C0FEDF3F1C /* SwitchRow.swift in Sources */,
-				61FF740A2A37371EFA9F3C8ABEEDAFF3 /* TextAreaRow.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B6CC4346E208ED49117297BC170867A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1182,6 +1136,72 @@
 				636D2C2E7285E73921A395B9B1280634 /* BKForwardingTextField.m in Sources */,
 				E84F6EA9CA5753D7803B71436793EEB1 /* BKMoneyKit-dummy.m in Sources */,
 				389504956193827DB8E033DA2E1E2155 /* BKMoneyUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43AAC6F8D19904C0EB7666E96B8B1D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1039256A7B0AFBEB51D1BCD1DE192C30 /* ActionSheetRow.swift in Sources */,
+				278DA7CAFEDFF0B3E479BF7310999C84 /* AlertRow.swift in Sources */,
+				43B9A00DB9436E7BD6D705E2872E26E8 /* BaseRow.swift in Sources */,
+				2AC217E55DBAE620E9B1F36F371DE4BF /* ButtonRow.swift in Sources */,
+				DC59E613604D47744BB4D92C5265B0EF /* ButtonRowWithPresent.swift in Sources */,
+				2A84006D7A3BDF4D776324C3AD9D9F2F /* Cell.swift in Sources */,
+				78808B8338BDEF0959D8B0F3DA3BA891 /* CellType.swift in Sources */,
+				549A01629691F7DB092B3F8176AECD68 /* CheckRow.swift in Sources */,
+				55582C1B0D02D5A84F1FBB731CDE35D9 /* Core.swift in Sources */,
+				AEA1BD08FC0BF44288F2B7B87C020AB3 /* DateFieldRow.swift in Sources */,
+				7614C1B751242708E332B18FF2684B19 /* DateInlineFieldRow.swift in Sources */,
+				6EA26283A0E32D5594BDA55FF3F704A0 /* DateInlineRow.swift in Sources */,
+				68DFF9A114D3807FABAAC3CF260F21BE /* DatePickerRow.swift in Sources */,
+				2AFAE16062416674764562F22E85FB88 /* DateRow.swift in Sources */,
+				C3C0FF320CC9DE76423E6CDF1F8058EE /* DecimalFormatter.swift in Sources */,
+				CD59136C12F97B812062B4AA0862AEC0 /* Eureka-dummy.m in Sources */,
+				498223C7F76DB7D28AE38C4B78829F9A /* FieldRow.swift in Sources */,
+				2F005065D096AE7E2DCEE8C7FAB91A2E /* FieldsRow.swift in Sources */,
+				98B82309DB2678065E73E3120988819A /* Form.swift in Sources */,
+				F8E3F64EA6FEDF34A2D5F5DB83EF044E /* GenericMultipleSelectorRow.swift in Sources */,
+				7B9DC82FC3E433E06CC2FFBDDFE080B2 /* HeaderFooterView.swift in Sources */,
+				AB3126F1CC735C7FD7D09DB7392FD4CA /* Helpers.swift in Sources */,
+				114B8967240AF21C565B7645215F8F44 /* InlineRowType.swift in Sources */,
+				520E9F67AFBBC78EBE66297B8D52C6D2 /* LabelRow.swift in Sources */,
+				D38C4C82C4397D964431454DB9BA6B98 /* ListCheckRow.swift in Sources */,
+				24B52E4528FE1CA5BBB438CF11441FA5 /* MultipleSelectorRow.swift in Sources */,
+				C60F11C7D5479F0153B43DC78B6DA97D /* MultipleSelectorViewController.swift in Sources */,
+				5CB85FC0E9168E9EC0CCD33A63FCBC1A /* NavigationAccessoryView.swift in Sources */,
+				004C8AAA5143637A4360B55CAD850E4F /* Operators.swift in Sources */,
+				79E5ACA311F3FD7FF5A52E73A822CE2D /* OptionsRow.swift in Sources */,
+				130795E873137DA419183E8BBC2D2F9B /* PickerInlineRow.swift in Sources */,
+				6FBB071D9E7FE75CB93CD0F7A12CB69D /* PickerRow.swift in Sources */,
+				8036FBD9863FF1D763DD7A646B05CB5E /* PopoverSelectorRow.swift in Sources */,
+				3991DF903EE4C5D986052514554B67F6 /* PresenterRowType.swift in Sources */,
+				30AAD30F48EB6531526A83E529E716BA /* Protocols.swift in Sources */,
+				1D2C3F458A7EC5E133380C552CF8DA90 /* PushRow.swift in Sources */,
+				4DF81955654DBE4E02E806802D1D49B0 /* Row.swift in Sources */,
+				ED6498AD627581D3216938680A6D4614 /* RowControllerType.swift in Sources */,
+				B5D1D75F4DFB50ECDBD359388B708E4A /* RowProtocols.swift in Sources */,
+				0E7232F55A0147C548BF0C1D91AD29DC /* RowType.swift in Sources */,
+				5D49089662AC20A1CB3F05D33635229D /* RuleClosure.swift in Sources */,
+				311CF93EE9E301E3FAFD46BA0A62E3B8 /* RuleEmail.swift in Sources */,
+				D042F97BD6E9018B1E6AF3B78695F2F6 /* RuleLength.swift in Sources */,
+				BE3AFC46419AC438FE1D409B7B0BFED4 /* RuleRange.swift in Sources */,
+				C812952EC34CF6C37FA7B066870741B4 /* RuleRegExp.swift in Sources */,
+				653F5F8E52EED5D8B9CF3FBDB0712CDD /* RuleRequired.swift in Sources */,
+				4EE521ADDD025747F450378FDDE95372 /* RuleURL.swift in Sources */,
+				2ACBF08CF311E49CB4BA1F75D7F7209C /* Section.swift in Sources */,
+				14085738C1B57648ADD19DDB9E7AA93F /* SegmentedRow.swift in Sources */,
+				2395F5D2B2E9E8CDCC9B2C03F31A59B6 /* SelectableRowType.swift in Sources */,
+				05E44C82FAED17D346EE349295CF4603 /* SelectableSection.swift in Sources */,
+				598FA42A947DB0A73BF837326DFDB13C /* SelectorAlertController.swift in Sources */,
+				402EA4A022E376724E25504C36C522CD /* SelectorRow.swift in Sources */,
+				B8E82D98499955A6B39BDBCB56E048D8 /* SelectorViewController.swift in Sources */,
+				C4E1ACB5AED0442E0212211FAFDA7975 /* SliderRow.swift in Sources */,
+				FF23400BEFE014C4818111FB1F2EB3EB /* StepperRow.swift in Sources */,
+				F3247CD95148E670D550CC747A769404 /* SwitchRow.swift in Sources */,
+				37E2FFC149E2115469E943E6953CDE15 /* TextAreaRow.swift in Sources */,
+				4325E0AC8D1557CE015B4F35423277DA /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1205,7 +1225,7 @@
 		0D8FA62197211A0B8EC1F35C9EA9DEFC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Eureka;
-			target = 4332352E97A37C729DC7D9B3B8A4BB15 /* Eureka */;
+			target = 873B1A0D84F1FF2C0ECD8A2440705B43 /* Eureka */;
 			targetProxy = 6B7E1364779822700D0CF5D405D30C0A /* PBXContainerItemProxy */;
 		};
 		10DE53B38CD3D58DABB6399D2154C568 /* PBXTargetDependency */ = {
@@ -1229,7 +1249,7 @@
 		6904F75722AA945129B9153BCEF08CAE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Eureka;
-			target = 4332352E97A37C729DC7D9B3B8A4BB15 /* Eureka */;
+			target = 873B1A0D84F1FF2C0ECD8A2440705B43 /* Eureka */;
 			targetProxy = 5F6C000CD55F163E7553631998B99E82 /* PBXContainerItemProxy */;
 		};
 		954493E200A3DECAB0D0D17BC32B39C6 /* PBXTargetDependency */ = {
@@ -1247,7 +1267,7 @@
 		B429973AAF53F973F95753CF0288238E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Eureka;
-			target = 4332352E97A37C729DC7D9B3B8A4BB15 /* Eureka */;
+			target = 873B1A0D84F1FF2C0ECD8A2440705B43 /* Eureka */;
 			targetProxy = C0E5208EEF872AEA182230E37399EBD3 /* PBXContainerItemProxy */;
 		};
 		B7A38DA710938961B93397308992D675 /* PBXTargetDependency */ = {
@@ -1265,208 +1285,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00B3EFFF11B1724E3465EA0B8B318F5F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8360E77D96C411C3F5BE7D2EF7863F03 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		02DB5B7D9C78ABAB60F5021364759DF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4F941F3881E448B17D02E78EFE58582 /* BKMoneyKit.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BKMoneyKit";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/BKMoneyKit/ResourceBundle-BKMoneyKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = BKMoneyKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		165D988D961F7E605FA35A142793D26F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1060241247ACDBF976F51FFC8870CD73 /* EurekaCreditCard.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EurekaCreditCard/EurekaCreditCard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EurekaCreditCard/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EurekaCreditCard/EurekaCreditCard.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = EurekaCreditCard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 2.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		30795B92741DFF7419CA4DBD06424F3C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1060241247ACDBF976F51FFC8870CD73 /* EurekaCreditCard.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EurekaCreditCard/EurekaCreditCard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EurekaCreditCard/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EurekaCreditCard/EurekaCreditCard.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = EurekaCreditCard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3F8C5EC0BF18DC59BFA1631846DFBCD8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00E3BB56C117A4376CDEFCEBDA069D2D /* Eureka.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Eureka/Eureka-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Eureka/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Eureka;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4DA35D41DE0DB5D02B9DB51EA65F579B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C70F190AC4171971F77656E97A836046 /* Pods-BasePods-EurekaCreditCard_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BasePods-EurekaCreditCard_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BasePods-EurekaCreditCard_Example/Pods-BasePods-EurekaCreditCard_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_BasePods_EurekaCreditCard_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6D28AA25975B1CB870ABE49D6F298D4A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1060241247ACDBF976F51FFC8870CD73 /* EurekaCreditCard.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EurekaCreditCard";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/EurekaCreditCard/ResourceBundle-EurekaCreditCard-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = EurekaCreditCard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		6D9A3B754CE76E58D4311F49EA34DD07 /* Release */ = {
+		06A5BC8F79F681F51EA4766C9382BC9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1606342F729F74AAB4AEEAAF16DD4003 /* Pods-BasePods-EurekaCreditCard_Tests.release.xcconfig */;
 			buildSettings = {
@@ -1495,16 +1314,48 @@
 				PRODUCT_NAME = Pods_BasePods_EurekaCreditCard_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		7DD173CE0ADF56CDD3ABB047EF9A388A /* Debug */ = {
+		1E9033750D8E7A50C68462EFA62D700F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8360E77D96C411C3F5BE7D2EF7863F03 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = 6F98DA22D6B31BC0E097409140BAC768 /* Eureka.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Eureka/Eureka-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Eureka/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Eureka;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38E486E22BD29A9B4AD35634D13FD7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34B8C7CA0334424117E4A1AF9C732D22 /* Pods-BasePods-EurekaCreditCard_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1517,23 +1368,127 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BasePods-EurekaCreditCard_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BasePods-EurekaCreditCard_Example/Pods-BasePods-EurekaCreditCard_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FBSnapshotTestCase;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BasePods_EurekaCreditCard_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		5D6170B52F68A428FEC47EEA654C1B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF8B12EB0CEE15330A46ECCD5A64C93 /* BKMoneyKit.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BKMoneyKit";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/BKMoneyKit/ResourceBundle-BKMoneyKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BKMoneyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6D81CF468568995CE6A94D23CD290668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF8B12EB0CEE15330A46ECCD5A64C93 /* BKMoneyKit.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BKMoneyKit";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/BKMoneyKit/ResourceBundle-BKMoneyKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BKMoneyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		76F55083F6DC758B9B9D7B488A77535D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF8B12EB0CEE15330A46ECCD5A64C93 /* BKMoneyKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BKMoneyKit/BKMoneyKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BKMoneyKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BKMoneyKit/BKMoneyKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BKMoneyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		859103BF6F6A1B8C1CB5E57B954C41C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF8B12EB0CEE15330A46ECCD5A64C93 /* BKMoneyKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BKMoneyKit/BKMoneyKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BKMoneyKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BKMoneyKit/BKMoneyKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BKMoneyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1574,43 +1529,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		8ED5DF800398083C2BE072D8884BA44D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34B8C7CA0334424117E4A1AF9C732D22 /* Pods-BasePods-EurekaCreditCard_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BasePods-EurekaCreditCard_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BasePods-EurekaCreditCard_Example/Pods-BasePods-EurekaCreditCard_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_BasePods_EurekaCreditCard_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 2.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1656,9 +1574,42 @@
 			};
 			name = Debug;
 		};
-		C57E88BBA41FF60213A65F294BC25C64 /* Release */ = {
+		A25DB3C12CE1EEE8B1458AF98CB94E9F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4F941F3881E448B17D02E78EFE58582 /* BKMoneyKit.xcconfig */;
+			baseConfigurationReference = 6F98DA22D6B31BC0E097409140BAC768 /* Eureka.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Eureka/Eureka-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Eureka/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Eureka;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE09B8440FE89EC145C9985A2AC263E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C70F190AC4171971F77656E97A836046 /* Pods-BasePods-EurekaCreditCard_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1671,24 +1622,61 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BKMoneyKit/BKMoneyKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BKMoneyKit/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BasePods-EurekaCreditCard_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BKMoneyKit/BKMoneyKit.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BasePods-EurekaCreditCard_Example/Pods-BasePods-EurekaCreditCard_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = BKMoneyKit;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BasePods_EurekaCreditCard_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		C75E532BA3DD4024ECFB856DBFB52BFA /* Debug */ = {
+		B1638B3E9303E454F11D73DA992A7DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1060241247ACDBF976F51FFC8870CD73 /* EurekaCreditCard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EurekaCreditCard/EurekaCreditCard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EurekaCreditCard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EurekaCreditCard/EurekaCreditCard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EurekaCreditCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5E2709F1A9DF0B92548108EA253BD76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 11CF91FE2F19B61FB0AE8EB8B31E4136 /* Pods-BasePods-EurekaCreditCard_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -1718,48 +1706,48 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		E10833E3A715B4CFE7DC6EFE68A83056 /* Debug */ = {
+		D4D173E0DBBA870BF3724D576A88C3A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4F941F3881E448B17D02E78EFE58582 /* BKMoneyKit.xcconfig */;
+			baseConfigurationReference = CCE889F5F5D2EBEE2F20F079D59826CF /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BKMoneyKit/BKMoneyKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BKMoneyKit/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BKMoneyKit/BKMoneyKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = BKMoneyKit;
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		E39C612CAF6F510989893F84480D01E6 /* Debug */ = {
+		D4F77D97C24E59EAC39325C64086EDD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00E3BB56C117A4376CDEFCEBDA069D2D /* Eureka.xcconfig */;
+			baseConfigurationReference = CCE889F5F5D2EBEE2F20F079D59826CF /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1772,43 +1760,25 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Eureka/Eureka-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Eureka/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Eureka;
+				PRODUCT_NAME = FBSnapshotTestCase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		EA2BAC87BFBDEA2007BAD8BBF69D7297 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4F941F3881E448B17D02E78EFE58582 /* BKMoneyKit.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BKMoneyKit";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/BKMoneyKit/ResourceBundle-BKMoneyKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = BKMoneyKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		F896DB0F0183957F9FA2FA862D797B44 /* Release */ = {
+		E43D2FFB7F800D2990F4D44B146B33F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1060241247ACDBF976F51FFC8870CD73 /* EurekaCreditCard.xcconfig */;
 			buildSettings = {
@@ -1820,7 +1790,57 @@
 				PRODUCT_NAME = EurekaCreditCard;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E95DE3EE7D27AAB480AA6B2DB16DADBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1060241247ACDBF976F51FFC8870CD73 /* EurekaCreditCard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EurekaCreditCard/EurekaCreditCard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EurekaCreditCard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EurekaCreditCard/EurekaCreditCard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EurekaCreditCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F677FF675C0BEC65E0573F55E74F3552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1060241247ACDBF976F51FFC8870CD73 /* EurekaCreditCard.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EurekaCreditCard";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/EurekaCreditCard/ResourceBundle-EurekaCreditCard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = EurekaCreditCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -1829,20 +1849,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06CAE4617A9C4BF458755F5C4A516944 /* Build configuration list for PBXNativeTarget "Eureka" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E39C612CAF6F510989893F84480D01E6 /* Debug */,
-				3F8C5EC0BF18DC59BFA1631846DFBCD8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		073F254672D20695C89035E4D6CD1F87 /* Build configuration list for PBXNativeTarget "BKMoneyKit-BKMoneyKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA2BAC87BFBDEA2007BAD8BBF69D7297 /* Debug */,
-				02DB5B7D9C78ABAB60F5021364759DF0 /* Release */,
+				6D81CF468568995CE6A94D23CD290668 /* Debug */,
+				5D6170B52F68A428FEC47EEA654C1B6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1850,8 +1861,8 @@
 		0D8B09EEB1AC99B96B39620F909E0412 /* Build configuration list for PBXNativeTarget "Pods-BasePods-EurekaCreditCard_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8ED5DF800398083C2BE072D8884BA44D /* Debug */,
-				4DA35D41DE0DB5D02B9DB51EA65F579B /* Release */,
+				38E486E22BD29A9B4AD35634D13FD7D7 /* Debug */,
+				AE09B8440FE89EC145C9985A2AC263E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1868,8 +1879,8 @@
 		774FA0787F692DF4B504ECA0644189CF /* Build configuration list for PBXNativeTarget "Pods-BasePods-EurekaCreditCard_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C75E532BA3DD4024ECFB856DBFB52BFA /* Debug */,
-				6D9A3B754CE76E58D4311F49EA34DD07 /* Release */,
+				C5E2709F1A9DF0B92548108EA253BD76 /* Debug */,
+				06A5BC8F79F681F51EA4766C9382BC9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1877,8 +1888,8 @@
 		8D492E06A9E9F494492A2A3B4D19493E /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7DD173CE0ADF56CDD3ABB047EF9A388A /* Debug */,
-				00B3EFFF11B1724E3465EA0B8B318F5F /* Release */,
+				D4F77D97C24E59EAC39325C64086EDD6 /* Debug */,
+				D4D173E0DBBA870BF3724D576A88C3A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1886,8 +1897,8 @@
 		9945AEC3EF1E2C79B53455F68CB1BF34 /* Build configuration list for PBXNativeTarget "EurekaCreditCard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				165D988D961F7E605FA35A142793D26F /* Debug */,
-				30795B92741DFF7419CA4DBD06424F3C /* Release */,
+				B1638B3E9303E454F11D73DA992A7DFF /* Debug */,
+				E95DE3EE7D27AAB480AA6B2DB16DADBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1895,8 +1906,8 @@
 		B51F92077D5772C3EA50C272D7EBEFC3 /* Build configuration list for PBXNativeTarget "EurekaCreditCard-EurekaCreditCard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D28AA25975B1CB870ABE49D6F298D4A /* Debug */,
-				F896DB0F0183957F9FA2FA862D797B44 /* Release */,
+				E43D2FFB7F800D2990F4D44B146B33F4 /* Debug */,
+				F677FF675C0BEC65E0573F55E74F3552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1904,8 +1915,17 @@
 		B7C762021DC44B114F12E3B4B75222C0 /* Build configuration list for PBXNativeTarget "BKMoneyKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E10833E3A715B4CFE7DC6EFE68A83056 /* Debug */,
-				C57E88BBA41FF60213A65F294BC25C64 /* Release */,
+				76F55083F6DC758B9B9D7B488A77535D /* Debug */,
+				859103BF6F6A1B8C1CB5E57B954C41C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE17FD22F754341BD6DBF1E339AAF8A4 /* Build configuration list for PBXNativeTarget "Eureka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25DB3C12CE1EEE8B1458AF98CB94E9F /* Debug */,
+				1E9033750D8E7A50C68462EFA62D700F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

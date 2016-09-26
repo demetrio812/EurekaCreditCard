@@ -1,7 +1,7 @@
-//  RowControllerType.swift
+//  RuleEmail.swift
 //  Eureka ( https://github.com/xmartlabs/Eureka )
 //
-//  Copyright (c) 2016 Xmartlabs ( http://xmartlabs.com )
+//  Copyright (c) 2016 Xmartlabs SRL ( http://xmartlabs.com )
 //
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,15 +22,13 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-
 import Foundation
 
-
-/**
- *  Base protocol for view controllers presented by Eureka rows.
- */
-public protocol RowControllerType : NSObjectProtocol {
+public class RuleEmail: RuleRegExp {
     
-    /// A closure to be called when the controller disappears.
-    var onDismissCallback: ((UIViewController) -> ())? { get set }
+    public init() {
+        super.init(regExpr: RegExprPattern.EmailAddress.rawValue, allowsEmpty: true)
+        self.validationError = ValidationError(msg: "Field value should be a valid email!")
+    }
+    
 }

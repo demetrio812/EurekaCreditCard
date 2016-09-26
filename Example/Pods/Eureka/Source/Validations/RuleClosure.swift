@@ -1,7 +1,7 @@
-//  RowControllerType.swift
+//  RuleClosure.swift
 //  Eureka ( https://github.com/xmartlabs/Eureka )
 //
-//  Copyright (c) 2016 Xmartlabs ( http://xmartlabs.com )
+//  Copyright (c) 2016 Xmartlabs SRL ( http://xmartlabs.com )
 //
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,15 +22,22 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-
 import Foundation
 
 
-/**
- *  Base protocol for view controllers presented by Eureka rows.
- */
-public protocol RowControllerType : NSObjectProtocol {
+public struct RuleClosure<T: Equatable>: RuleType {
     
-    /// A closure to be called when the controller disappears.
-    var onDismissCallback: ((UIViewController) -> ())? { get set }
+    public var id: String?
+    public var validationError: ValidationError
+    
+    public var closure: (T?) -> ValidationError?
+
+    public func isValid(value: T?) -> ValidationError? {
+        return closure(value)
+    }
+    
+    public init(validationError: ValidationError = ValidationError(msg: "Field validation fails.."), closure: @escaping ((T?) -> ValidationError?)) {
+        self.validationError = validationError
+        self.closure = closure
+    }
 }

@@ -1,7 +1,7 @@
-//  RowControllerType.swift
+//  RuleURL.swift
 //  Eureka ( https://github.com/xmartlabs/Eureka )
 //
-//  Copyright (c) 2016 Xmartlabs ( http://xmartlabs.com )
+//  Copyright (c) 2016 Xmartlabs SRL ( http://xmartlabs.com )
 //
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,15 +22,29 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-
 import Foundation
+import UIKit
 
-
-/**
- *  Base protocol for view controllers presented by Eureka rows.
- */
-public protocol RowControllerType : NSObjectProtocol {
+public struct RuleURL: RuleType {
     
-    /// A closure to be called when the controller disappears.
-    var onDismissCallback: ((UIViewController) -> ())? { get set }
+    public init(allowsEmpty: Bool = true, requiresProtocol: Bool = false) {}
+    
+    public var id: String?
+    public var allowsEmpty = true
+    public var requiresProtocol = false
+    public var validationError = ValidationError(msg: "Field value must be an URL!")
+    
+    public func isValid(value: URL?) -> ValidationError? {
+        if let value = value, value.absoluteString.isEmpty == false {
+            let predicate = NSPredicate(format:"SELF MATCHES %@", RegExprPattern.URL.rawValue)
+            guard predicate.evaluate(with: value.absoluteString) else {
+                return validationError
+            }
+            return nil
+        }
+        else if !allowsEmpty {
+            return validationError
+        }
+        return nil
+    }
 }

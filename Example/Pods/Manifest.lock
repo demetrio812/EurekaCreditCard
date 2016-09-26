@@ -1,39 +1,45 @@
 PODS:
   - BKMoneyKit (0.0.8)
-  - Eureka (1.7.0)
+  - Eureka (2.0.0-beta.1)
   - EurekaCreditCard (0.1.4):
     - BKMoneyKit
     - Eureka
-  - FBSnapshotTestCase (2.1.3):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.3)
-  - FBSnapshotTestCase/Core (2.1.3)
-  - FBSnapshotTestCase/SwiftSupport (2.1.3):
+  - FBSnapshotTestCase (2.1.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
+  - FBSnapshotTestCase/Core (2.1.2)
+  - FBSnapshotTestCase/SwiftSupport (2.1.2):
     - FBSnapshotTestCase/Core
 
 DEPENDENCIES:
   - BKMoneyKit (= 0.0.8)
-  - Eureka (from `https://github.com/xmartlabs/Eureka.git`, branch `swift2.3`)
+  - Eureka (from `https://github.com/xmartlabs/Eureka.git`, branch `Swift3`)
   - EurekaCreditCard (from `../`)
-  - FBSnapshotTestCase
+  - FBSnapshotTestCase (from `git@github.com:facebook/ios-snapshot-test-case.git`, branch `swift-beta-3`)
 
 EXTERNAL SOURCES:
   Eureka:
-    :branch: swift2.3
+    :branch: Swift3
     :git: https://github.com/xmartlabs/Eureka.git
   EurekaCreditCard:
     :path: ../
+  FBSnapshotTestCase:
+    :branch: swift-beta-3
+    :git: git@github.com:facebook/ios-snapshot-test-case.git
 
 CHECKOUT OPTIONS:
   Eureka:
-    :commit: 29e73c3a2196732de0acac136e911143290390cf
+    :commit: 1a7ef721f0565cb62a54e273c43d0ae9528b4590
     :git: https://github.com/xmartlabs/Eureka.git
+  FBSnapshotTestCase:
+    :commit: a9ea64f015a081a63e88c1a37784249a616f9dcc
+    :git: git@github.com:facebook/ios-snapshot-test-case.git
 
 SPEC CHECKSUMS:
   BKMoneyKit: cbf7091f26242917a15b3fa337fdb4da3fe3675a
-  Eureka: 2020d9faeef7b7e9adeb9e3d8af779e5931c1897
+  Eureka: d014adf16406745e1a78d5790ea37ed130a0a8e5
   EurekaCreditCard: 4a8b954663365768c675d726de5bd362a3f716f2
-  FBSnapshotTestCase: 4607968e0dfa1e2772ec0d0098354f8b870c5753
+  FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
 
-PODFILE CHECKSUM: 5ab6380740bed5a828e2bf0fabe34d6e4c20ed9e
+PODFILE CHECKSUM: 1fa250cd23ddff87fc049c4f21c261ad0d0ea2b3
 
 COCOAPODS: 1.1.0.rc.2
