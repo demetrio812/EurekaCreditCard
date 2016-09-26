@@ -28,7 +28,7 @@ class ViewController: FormViewController {
                 $0.value = CreditCard()
         }
         
-        form +++= Section("Credit card information (Example 2)")
+        form +++ Section("Credit card information (Example 2)")
             <<< CreditCardRow() {
                 $0.title = "Card"
                 //$0.dataSectionWidthPercentage = CGFloat(0.5)
@@ -44,7 +44,7 @@ class ViewController: FormViewController {
                 )
         }
         
-        form +++= Section("Credit card information (Example 3)")
+        form +++ Section("Credit card information (Example 3)")
             <<< CreditCardRow() {
                 $0.title = "Main Card"
                 $0.dataSectionWidthPercentage = CGFloat(0.6)

@@ -1,1 +1,0 @@
-../../../BKMoneyKit/BKMoneyKit/BKCurrencyTextField.h

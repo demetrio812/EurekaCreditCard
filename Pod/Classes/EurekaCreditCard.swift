@@ -242,7 +242,7 @@ public class CreditCardCell<T:CreditCardType>: Cell<T>, CellType, CreditCardCell
         }
         
         cardNumberTextField.delegate = self
-        cardNumberTextField.text = row.value?.cardNumber
+        cardNumberTextField.cardNumber = row.value?.cardNumber
         cardNumberTextField.enabled = !row.isDisabled
         cardNumberTextField.textColor = row.isDisabled ? .grayColor() : .blackColor()
         cardNumberTextField.font = .preferredFontForTextStyle(UIFontTextStyleBody)
@@ -397,7 +397,7 @@ public class CreditCardCell<T:CreditCardType>: Cell<T>, CellType, CreditCardCell
     
     
     public override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String:AnyObject]?, context: UnsafeMutablePointer<Void>) {
-        if let obj = object, let keyPathValue = keyPath, let changeType = change?[NSKeyValueChangeKindKey] where ((obj === titleLabel && keyPathValue == "text") || (obj === imageView && keyPathValue == "image")) && changeType.unsignedLongValue == NSKeyValueChange.Setting.rawValue {
+        if let obj = object, let keyPathValue = keyPath, let changeType = change?[NSKeyValueChangeKindKey]  where ((obj === titleLabel && keyPathValue == "text") || (obj === imageView && keyPathValue == "image")) && changeType.unsignedLongValue == NSKeyValueChange.Setting.rawValue {
             setNeedsUpdateConstraints()
             updateConstraintsIfNeeded()
         }
@@ -426,19 +426,19 @@ public class CreditCardCell<T:CreditCardType>: Cell<T>, CellType, CreditCardCell
             "cvcTextField": cvcTextField
         ]
         
-        dynamicConstraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|-\(cellPadding)-[cardNumberTextField(\(textFieldHeight))]-\(textFieldMargin)-[cardNumberSeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[expirationMonthTextField(\(textFieldHeight))]-\(cellPadding)-|", options: [], metrics: nil, views: views)
-        dynamicConstraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|-\(cellPadding)-[cardNumberTextField(\(textFieldHeight))]-\(textFieldMargin)-[cardNumberSeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[expirationMonthYearSeparatorLabel(\(textFieldHeight))]-\(cellPadding)-|", options: [], metrics: nil, views: views)
-        dynamicConstraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|-\(cellPadding)-[cardNumberTextField(\(textFieldHeight))]-\(textFieldMargin)-[cardNumberSeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[expirationYearTextField(\(textFieldHeight))]-\(cellPadding)-|", options: [], metrics: nil, views: views)
-        dynamicConstraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|-\(cellPadding)-[cardNumberTextField(\(textFieldHeight))]-\(textFieldMargin)-[cardNumberSeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[cvcTextField(\(textFieldHeight))]-\(cellPadding)-|", options: [], metrics: nil, views: views)
-        
-        if let label = titleLabel, let text = label.text where !text.isEmpty {
+        dynamicConstraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|-\(cellPadding)-[cardNumberTextField(\(textFieldHeight))]-\(textFieldMargin)-[cardNumberSeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[expirationMonthTextField(\(textFieldHeight))]", options: [], metrics: nil, views: views)
+        dynamicConstraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|-\(cellPadding)-[cardNumberTextField(\(textFieldHeight))]-\(textFieldMargin)-[cardNumberSeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[expirationMonthYearSeparatorLabel(\(textFieldHeight))]", options: [], metrics: nil, views: views)
+        dynamicConstraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|-\(cellPadding)-[cardNumberTextField(\(textFieldHeight))]-\(textFieldMargin)-[cardNumberSeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[expirationYearTextField(\(textFieldHeight))]", options: [], metrics: nil, views: views)
+        dynamicConstraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|-\(cellPadding)-[cardNumberTextField(\(textFieldHeight))]-\(textFieldMargin)-[cardNumberSeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[cvcTextField(\(textFieldHeight))]", options: [], metrics: nil, views: views)
+
+        if let label = titleLabel, let text = label.text  where !text.isEmpty {
             dynamicConstraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|-\(cellPadding)-[titleLabel]-\(cellPadding)-|", options: [], metrics: nil, views: ["titleLabel": label])
             dynamicConstraints.append(NSLayoutConstraint(item: label, attribute: .CenterY, relatedBy: .Equal, toItem: self.contentView, attribute: .CenterY, multiplier: 1, constant: 0))
         }
         
         if let imageView = imageView, let _ = imageView.image {
             views["imageView"] = imageView
-            if let titleLabel = titleLabel, text = titleLabel.text where !text.isEmpty {
+            if let titleLabel = titleLabel, let text = titleLabel.text where !text.isEmpty {
                 views["label"] = titleLabel
                 dynamicConstraints += NSLayoutConstraint.constraintsWithVisualFormat("H:|-[imageView]-[label]-[cardNumberTextField]-|", options: [], metrics: nil, views: views)
                 dynamicConstraints += NSLayoutConstraint.constraintsWithVisualFormat("H:|-[imageView]-[label]-[expirationMonthTextField(\(expirationMonthTextFieldWidth))]-\(textFieldMargin * 2.0)-[expirationMonthYearSeparatorLabel(\(expirationMonthYearLabelWidth))]-[expirationYearTextField(\(expirationYearTextFieldWidth))]-\(textFieldMargin * 2.0)-[cvcTextField]-|", options: [], metrics: nil, views: views)
@@ -453,7 +453,7 @@ public class CreditCardCell<T:CreditCardType>: Cell<T>, CellType, CreditCardCell
             }
         } else {
             
-            if let titleLabel = titleLabel, let text = titleLabel.text where !text.isEmpty {
+            if let titleLabel = titleLabel, let text = titleLabel.text  where !text.isEmpty {
                 views["label"] = titleLabel
                 dynamicConstraints += NSLayoutConstraint.constraintsWithVisualFormat("H:|-[label]-[cardNumberTextField]-|", options: [], metrics: nil, views: views)
                 dynamicConstraints += NSLayoutConstraint.constraintsWithVisualFormat("H:|-[label]-[expirationMonthTextField(\(expirationMonthTextFieldWidth))]-\(textFieldMargin * 2.0)-[expirationMonthYearSeparatorLabel(\(expirationMonthYearLabelWidth))]-[expirationYearTextField(\(expirationYearTextFieldWidth))]-\(textFieldMargin * 2.0)-[cvcTextField]-|", options: [], metrics: nil, views: views)

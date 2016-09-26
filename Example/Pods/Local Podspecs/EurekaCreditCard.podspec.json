@@ -1,6 +1,6 @@
 {
   "name": "EurekaCreditCard",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "summary": "Eureka custom row and cell for credit card data",
   "description": "Custom Credit Card row for Eureka to quickly collect credit card data in an Eureka form.",
   "homepage": "https://github.com/demetrio812/EurekaCreditCard",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/demetrio812/EurekaCreditCard.git",
-    "tag": "0.1.1"
+    "tag": "0.1.4"
   },
   "social_media_url": "https://twitter.com/demetrio812",
   "platforms": {

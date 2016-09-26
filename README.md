@@ -49,6 +49,7 @@ form +++= Section("Credit card information")
 ![Selectors for month and year](demo_selector.png)
 
 ### TODO
+* Swift 3 version
 * SwiftValidator integration?
 
 ## Author

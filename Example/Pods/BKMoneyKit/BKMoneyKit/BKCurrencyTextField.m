@@ -24,13 +24,15 @@
     [super commonInit];
     
     self.keyboardType = UIKeyboardTypeNumberPad;
-    self.textAlignment = NSTextAlignmentRight;
+    //self.textAlignment = NSTextAlignmentRight;
     
     _numberFormatter = [[NSNumberFormatter alloc] init];
     _numberFormatter.numberStyle = NSNumberFormatterCurrencyStyle;
 
     _nonNumericRegularExpression = [BKMoneyUtils nonNumericRegularExpression];
     _numberCharacterSet = [BKMoneyUtils numberCharacterSet];
+    
+    self.placeholder = [_numberFormatter stringFromNumber:@(0)];
 }
 
 #pragma mark - UITextFieldDelegate
@@ -61,7 +63,11 @@
     NSString *newString = [currentText stringByReplacingCharactersInRange:range withString:string];
     
     NSString *digits = [self stringByRemovingNonNumericCharacters:newString];
-    
+
+    if (digits.length == 0) {
+        return string.length == 0;
+    }
+
     NSDecimalNumber *decimalNumber = [NSDecimalNumber decimalNumberWithString:digits];
     
     if (self.numberFormatter.maximumFractionDigits > 0) {
@@ -86,6 +92,7 @@
         [textField setSelectedTextRange:newRange];
     }
     
+    [[NSNotificationCenter defaultCenter] postNotificationName:UITextFieldTextDidChangeNotification object:self];
     [self sendActionsForControlEvents:UIControlEventEditingChanged];
     
     return NO;

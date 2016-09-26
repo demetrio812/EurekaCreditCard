@@ -1,10 +1,26 @@
-//
 //  Operators.swift
-//  Eureka
+//  Eureka ( https://github.com/xmartlabs/Eureka )
 //
-//  Created by Martin Barreto on 2/24/16.
-//  Copyright © 2016 Xmartlabs. All rights reserved.
+//  Copyright (c) 2016 Xmartlabs ( http://xmartlabs.com )
 //
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+// THE SOFTWARE.
 
 import Foundation
 
@@ -33,6 +49,7 @@ infix operator +++= { associativity left precedence 95 }
  - parameter left:  the form
  - parameter right: the section to be appended
  */
+@available(*, unavailable, message="Use +++ instead")
 public func +++=(inout left: Form, right: Section){
     left = left +++ right
 }
@@ -43,8 +60,10 @@ public func +++=(inout left: Form, right: Section){
  - parameter left:  the form
  - parameter right: the row
  */
-public func +++=(inout left: Form, right: BaseRow){
-    left +++= Section() <<< right
+public func +++(left: Form, right: BaseRow) -> Form {
+    let section = Section()
+    left +++ section <<< right
+    return left
 }
 
 /**
@@ -59,6 +78,20 @@ public func +++(left: Section, right: Section) -> Form {
     let form = Form()
     form +++ left +++ right
     return form
+}
+
+/**
+ Appends the row wrapped in a new section
+ 
+ - parameter left: a section of the form
+ - parameter right: a row to be appended
+ 
+ - returns: the form
+ */
+public func +++(left: Section, right: BaseRow) -> Form {
+    let section = Section()
+    section <<< right
+    return left +++ section
 }
 
 /**
@@ -109,7 +142,7 @@ public func <<<(left: BaseRow, right: BaseRow) -> Section {
  - parameter lhs: the section
  - parameter rhs: the rows to be appended
  */
-public func +=< C : CollectionType where C.Generator.Element == BaseRow>(inout lhs: Section, rhs: C){
+public func += <C : CollectionType where C.Generator.Element == BaseRow>(inout lhs: Section, rhs: C){
     lhs.appendContentsOf(rhs)
 }
 
@@ -119,6 +152,6 @@ public func +=< C : CollectionType where C.Generator.Element == BaseRow>(inout l
  - parameter lhs: the form
  - parameter rhs: the sections to be appended
  */
-public func +=< C : CollectionType where C.Generator.Element == Section>(inout lhs: Form, rhs: C){
+public func += <C : CollectionType where C.Generator.Element == Section>(inout lhs: Form, rhs: C){
     lhs.appendContentsOf(rhs)
 }

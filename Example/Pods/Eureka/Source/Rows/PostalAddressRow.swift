@@ -437,8 +437,8 @@ public class PostalAddressCell<T: PostalAddressType>: Cell<T>, CellType, PostalA
             "countryTextField": countryTextField
         ]
         
-        dynamicConstraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|-\(cellPadding)-[streetTextField(\(textFieldHeight))]-\(textFieldMargin)-[streetSeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[stateTextField(\(textFieldHeight))]-\(textFieldMargin)-[stateSeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[postalCodeTextField(\(textFieldHeight))]-\(textFieldMargin)-[postalCodeSeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[countryTextField]-\(cellPadding)-|", options: [], metrics: nil, views: views)
-        dynamicConstraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|-\(cellPadding)-[streetTextField(\(textFieldHeight))]-\(textFieldMargin)-[streetSeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[stateTextField(\(textFieldHeight))]-\(textFieldMargin)-[stateSeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[cityTextField(\(textFieldHeight))]-\(textFieldMargin)-[citySeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[countryTextField]-\(cellPadding)-|", options: [], metrics: nil, views: views)
+        dynamicConstraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|-\(cellPadding)-[streetTextField(\(textFieldHeight))]-\(textFieldMargin)-[streetSeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[stateTextField(\(textFieldHeight))]-\(textFieldMargin)-[stateSeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[postalCodeTextField(\(textFieldHeight))]-\(textFieldMargin)-[postalCodeSeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[countryTextField]", options: [], metrics: nil, views: views)
+        dynamicConstraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|-\(cellPadding)-[streetTextField(\(textFieldHeight))]-\(textFieldMargin)-[streetSeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[stateTextField(\(textFieldHeight))]-\(textFieldMargin)-[stateSeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[cityTextField(\(textFieldHeight))]-\(textFieldMargin)-[citySeparatorView(\(separatorViewHeight))]-\(textFieldMargin)-[countryTextField]", options: [], metrics: nil, views: views)
         
         if let label = titleLabel, let text = label.text where !text.isEmpty {
             dynamicConstraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|-\(cellPadding)-[titleLabel]-\(cellPadding)-|", options: [], metrics: nil, views: ["titleLabel": label])
@@ -504,6 +504,10 @@ public class PostalAddressCell<T: PostalAddressType>: Cell<T>, CellType, PostalA
     }
     
     public func textFieldDidChange(textField : UITextField){
+		if row.baseValue == nil{
+			row.baseValue = PostalAddress()
+		}
+		
         guard let textValue = textField.text else {
             switch(textField){
             case streetTextField:
@@ -529,7 +533,7 @@ public class PostalAddressCell<T: PostalAddressType>: Cell<T>, CellType, PostalA
         if let rowConformance = row as? PostalAddressRowConformance{
             var useFormatterDuringInput = false
             var valueFormatter: NSFormatter?
-            
+			
             switch(textField){
             case streetTextField:
                 useFormatterDuringInput = rowConformance.streetUseFormatterDuringInput
@@ -579,7 +583,7 @@ public class PostalAddressCell<T: PostalAddressType>: Cell<T>, CellType, PostalA
                         let oldVal = textField.text
                         textField.text = row.displayValueFor?(row.value)
                         if let f = formatter as? FormatterProtocol {
-                            selStartPos = f.getNewPosition(forPosition: selStartPos, inTextInput: textField, oldValue: oldVal, newValue: textField.text)
+                            selStartPos = f.getNewPosition(selStartPos, inTextInput: textField, oldValue: oldVal, newValue: textField.text)
                         }
                         textField.selectedTextRange = textField.textRangeFromPosition(selStartPos, toPosition: selStartPos)
                     }
